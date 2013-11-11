@@ -1,0 +1,8 @@
+*.o
+*.hi
+site
+
+# generated files
+
+_cache/
+_site/
