@@ -1,0 +1,16 @@
+---
+title: Some thoughts on making slides for technical presentations
+---
+
+<p>I recently attended <a href="conferences.yapceurope.org/ye2010/">YAPC::Europe 2010</a> (and helped a bit organizing it), and Id like to share some advices I was thinking on, for those speakers who will present at technical conferences in the future. These advices are mostly about how to prepare your slides, with something on how to deliver your presentation. Theres plenty of stuff available on the net about this topic, but I feel like stressing some points.</p>
+<ol>
+<li>When you decide your colour palette, dont consider its impact only on your own display. As a matter of fact, I think this should be the last of your concerns. Your slides will be projected with a beamer, or reproduced on a big monitor: they could both spoil the colours you spent lots of hours on.</li>
+<li>If you cant make up your mind about the colours, keep it simple: black text on white background is very likely to perform well on every situation.</li>
+<li>Enlarge the font-size.</li>
+<li>Again.</li>
+<li>Ask the conference staff to check your equipment, and verify the impact of your chosen colour scheme. Check it also from the rear rows, if you think the room will be crowded. Check nevertheless: there could be people entering the room late, staying behind to avoid disturbing the other attendees.</li>
+<li>Use the right tool to make your slides: if, after the check, you think your choices (colours, font size, etc) were not that sound, you should be able to change them rapidly. Styles are great.</li>
+<li>If you think you are going to give a live demo, think twice. If youre still convinced, you have to plan carefully also this part. First advice: the 190x100 terminal window that's so practical for your daily job will be almost unreadable for the audience. Even more with the usual black background many hackers seem to favour. And a total failure if the organizers will record your talk. I suggest keeping a terminal setting designed specifically for demo delivery: 80x25, big font, high contrast, possibly white background.</li>
+<li>Youre surely familiar with what I call the demo effect: something you rehearsed so carefully at home, will miserably fail during the real thing. Especially if you want to write code on stage to demonstrate a technique or a library. A nice trick I saw to avoid this problem is based on version control (<a href="http://www.thenautilus.net/index/">dakkar</a>++). Write the code in advance, keep it in your favourite version control system, and tag the relevant steps of the development. During your talk, checkout those tagged revisions while you proceed with the explanation: doing so, you can still show the audience how the mini-project is evolving, but you wont need to write any code live (with a considerable probability of messing it up). Also, you can go back and forth if someone ask to clarify some point.</li>
+</ol>
+

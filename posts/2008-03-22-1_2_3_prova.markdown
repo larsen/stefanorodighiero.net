@@ -1,0 +1,6 @@
+---
+title: 1, 2, 3... prova
+---
+
+<p>Installazione minimale di Wordpress per cominciare a pubblicare qualcosa. Penso che più avanti migrerò a Movable Type, che conosco meglio e che considero superiore quanto a versatilità e maneggevolezza, ma ho voluto adottare da subito il tema <a href="http://warpspire.com/hemingway/hemingway-for-wordpress">Hemingway</a>, che successivamente porterò a MT.</p>
+

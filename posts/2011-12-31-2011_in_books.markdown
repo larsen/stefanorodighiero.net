@@ -1,0 +1,25 @@
+---
+title: 2011 in books
+---
+
+<h2>Essays/Computer science/$work stuff</h2>
+[amazon asin=1449302645&amp;title=Programming Pig&amp;template=thumbnail1] [amazon asin=1449389732&amp;title=Hadoop The definitive guide&amp;template=thumbnail1] [amazon asin=1449390412&amp;title=Cassandra: The Definitive Guide&amp;template=thumbnail1] [amazon asin=0596802358&amp;title=Data Analysis with Open Source Tools&amp;template=thumbnail1]
+
+In 2011 I started my adventures in the perilous lands of bigdata, so I've begun harvesting literature on the subject. Extremely interesting and relatively young field. I have an almost finished review of "Data Analysis with Open Source Tools" which I hope to publish soon.
+
+[amazon asin=1934356344&amp;title=The Passionate Programmer&amp;template=thumbnail1] [amazon asin=8817112909&amp;title=Longitudine&amp;template=thumbnail1]
+<h2>Novels</h2>
+[amazon asin=1439157022&amp;title=Generation A&amp;template=thumbnail1] [amazon asin=0007179812&amp;title=Microserfs&amp;template=thumbnail1]
+
+My first encounter with <a class="zem_slink" title="Douglas Coupland" href="http://en.wikipedia.org/wiki/Douglas_Coupland" rel="wikipedia">Douglas Coupland</a>. I particularly liked Microserfs, that somehow seemed to be speaking directly to me. Perhaps not for everybody.
+
+[amazon asin=0553103547&amp;title=A game of Thrones&amp;template=thumbnail1] [amazon asin=0553108034&amp;title=A clash of Kings &amp;template=thumbnail1] [amazon asin=0006479901&amp;title=A storm of Swords&amp;template=thumbnail1]
+
+Five minutes after <a href="http://en.wikipedia.org/wiki/Game_of_Thrones_(TV_series)">Games of Thrones</a> s01e01 I realized I couldn't wait an entire week to know the rest of the story. Still entertaining, after ~3000 pages and already in the fourth book.
+
+[amazon asin=0061977969&amp;title=Reamde&amp;template=thumbnail1]
+
+I'm a hardcore <a class="zem_slink" title="Neal Stephenson" href="http://en.wikipedia.org/wiki/Neal_Stephenson" rel="wikipedia">Neal Stephenson</a> fan. I also have Anathem in my stack, but I decided to read Reamde first, because it seemed less dense. It was, and also more fast-paced than usual.
+
+[amazon asin=0307472590&amp;title=La sombra del viento&amp;template=thumbnail1] [amazon asin=8804499079&amp;title=La donna della domenica&amp;template=thumbnail1] [amazon asin=8845921794&amp;title=Solomon Gursky è stato qui&amp;template=thumbnail1]
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><img class="zemanta-pixie-img" style="border: none; float: right;" src="http://img.zemanta.com/pixy.gif?x-id=821046c1-8699-4224-9902-4e98ef21075c" alt="" /></div>
