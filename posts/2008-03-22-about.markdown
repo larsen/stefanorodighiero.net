@@ -1,9 +1,0 @@
----
-title: About
----
-
-<p>A programmer working between Italy, Spain and Brazil.</p>
-<p><a href="http://www.stefanorodighiero.net/blog/2009/01/seven-facts-about-me/">Seven things about me</a></p>
-<p><a href="http://www.linkedin.com/in/stefanorodighiero" ><img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.gif" width="80" height="15" border="0" alt="View Stefano Rodighiero's profile on LinkedIn"></a></p>
-<div id="dopplr-larsen-planned_trips-embed"><script type="text/javascript" src="http://www.dopplr.com/traveller/larsen/public/3f9de2208a087b87b092c3f5b1fe85c1/planned_trips.js"></script></div>
-

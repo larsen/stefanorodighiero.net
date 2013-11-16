@@ -2,7 +2,7 @@
 title: Nobody knows Shoes
 ---
 
-![Shoes logo](/images/shoes-logo.png)
+![](/images/shoes-logo.png)
 
 Ho pensato di provare [Shoes](http://code.whytheluckystiff.net/shoes/), un
 toolkit per GUI scritto in Ruby da whytheluckystiff. Non che per le mie
