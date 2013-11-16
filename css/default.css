@@ -1,6 +1,7 @@
 body {
     color: black;
     font-size: 16px;
+    font-family: Georgia,Times,sans-serif;
     margin: 0px auto 0px auto;
     width: 600px;
 }
@@ -43,10 +44,12 @@ div#footer {
 
 h1 {
     font-size: 24px;
+    font-family: 'FaktConPro-SemiBold',Helvetica,Arial,sans-serif;
 }
 
 h2 {
     font-size: 20px;
+    font-family: Georgia,Times,sans-serif;
 }
 
 div.info {
