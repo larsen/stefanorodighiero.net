@@ -9,20 +9,19 @@ While their functionalities are diverse and distinct, they tend to share
 portions of code larger than what I'd like. For example, the authentication
 code is repeated over and over across all the panels: of course we can factor
 out the parts that fetch user profiles from the database (and we do), but
-having distinct panels we're bound to write the same logic into each of them.
+having distinct panels means we're bound to write the same logic into each of
+them.
 
-This results in unpleasant experience for final users as well: they have to
-login again and again while they use the various applications for their daily
-job.
+This results in an unpleasant experience for final users as well: they have to
+login every time they want to use another applications for their daily job.
 
 I'd rather like to have the authentication logic in a single point which then
 passes the control to the specific application the user asked to use.
 
 [Plack](http://plackperl.org/) is a tool that can help in this situation and
-many others.  In particular, one can compose different applications in a single
-one, providing also the means to ''wrap'' them with procedures that are
-executed for every request, with no need to modify the inner, original
-application.
+many others.  One can compose different applications into a single one and also
+''wrap'' them with procedures that are executed for every request, with no need
+to modify the inner, original application.
 
 ## Basic usage
 
@@ -64,12 +63,14 @@ builder {
 };
 ````
 
-I used two bare blocks to prepare, using
-[``Mojo::Server::PSGI``](http://search.cpan.org/~sri/Mojolicious-4.91/lib/Mojo/Server/PSGI.pm),
-the applications (``$app1`` and ``$app2``) I later used with the composer:
-``builder``. I also added another middleware component,
-[``Plack::Middleware::Debug``](http://search.cpan.org/~miyagawa/Plack-Middleware-Debug-0.16/lib/Plack/Middleware/Debug.pm),
-to show the wrapping technique I was talking about before: in this case Debug
+I used two bare blocks to prepare, using the adaptor
+[``Mojo::Server::PSGI``](https://metacpan.org/pod/Mojo::Server::PSGI), the
+applications (``$app1`` and ``$app2``) I later used with the composer:
+``builder``.
+
+I also added another middleware component,
+[``Plack::Middleware::Debug``](https://metacpan.org/pod/Plack::Middleware::Debug),
+to show the wrapping technique I was talking about before: in this case ``Debug``
 adds useful informations about the application execution.  What is important
 is that it does that without touching for the code of the application.
 
@@ -81,8 +82,10 @@ Start the server with ``plackup composer.pl`` to see the results.
 
 Now we can solve one the problems I mentioned in the introduction: we can add
 an authentication layer that will be common to all the applications composed as
-we've seen.  Plack conveniently provides a middleware to do so. Just drop these
-lines in the ``builder`` part of ``composer.pl``:
+we've seen.  Plack conveniently provides middlewares to do so: to keep things
+simple we're going to use
+[``Plack::Middleware::Auth::Basic``](https://metacpan.org/pod/Plack::Middleware::Auth::Basic).
+Just drop these lines in the ``builder`` part of ``composer.pl``:
 
 ```` perl
 enable "Auth::Basic", authenticator => sub {
@@ -99,19 +102,20 @@ case, for example, I would look in a user database).
 
 Authenticating the user is just one half of the task: once the user has entered
 the app, we must ensure he can access the resources he's interested in. We need
-to authorize him, and I believe this part of the project must be in the
-applications, not in the Plack composer.
+to authorize him, and I believe this part must be in the applications, not in
+the Plack composer.
 
-To do so we must face a problem: authentication happened in a middleware, thus
+To do so we must face a problem. Authentication happened in a middleware, thus
 _outside_ of the application itself: the application can then just assume
 someone else checked the identity of the user. But we need more specific
 information to decide whether we can serve or not a particular page. It's not
-sufficient to know that someone trusted has entered the application: we need to
-know as well who he is.  In other words, we need middlewares and applications
-to talk to each other.
+enough to know that someone trusted has entered the application: we need to
+know as well who he is.  Since only the middleware is aware of the user's
+identity, we need to find a way for middlewares and applications to talk to
+each other.
 
-One way to accomplish that is using session. They not only provide a way to
-mantain a state across requests, but also a mean for different layers of the
+One way to accomplish that is using sessions. They not only provide a way to
+mantain state across requests, but also a mean for different layers of the
 system (namely Plack middlewares and Mojolicious apps) to communicate.
 
 First, we drop a new line into our composer:
@@ -133,11 +137,19 @@ enable "Auth::Basic", authenticator => sub {
 };
 ````
 
-And in the application, to fetch the session data:
+In the applications, to fetch the session data:
 
 ```` perl
 my $session = Plack::Session->new( $self->req->env );
 my $username = $session->get('username');
 ````
 
+Here the result.
+
 ![](/images/mojo-apptest1-session.png "Test application with Session middleware enabled")
+
+Here a graphical representation of the architecture we obtained:
+
+<center>
+<img src="/images/composing-mojo-apps-arch.png" alt="Composing Mojolicious applications with Plack: general architecture" />
+</center>
