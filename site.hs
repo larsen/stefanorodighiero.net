@@ -12,6 +12,15 @@ pandocOptions = defaultHakyllWriterOptions
     { writerHTMLMathMethod = MathJax ""
     }
 
+myFeedConfiguration :: FeedConfiguration
+myFeedConfiguration = FeedConfiguration
+    { feedTitle       = "Stefano Rodighiero's blog"
+    , feedDescription = ""
+    , feedAuthorName  = "Stefano Rodighiero"
+    , feedAuthorEmail = "stefano.rodighiero@gmail.com"
+    , feedRoot        = "http://stefanorodighiero.net"
+    }
+
 main :: IO ()
 main = hakyll $ do
 
@@ -39,6 +48,7 @@ main = hakyll $ do
         route $ setExtension "html"
         compile $ pandocCompilerWith defaultHakyllReaderOptions pandocOptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -56,11 +66,18 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    create ["atom.xml"] $ do
+        route idRoute
+        compile $ do
+            let feedCtx = postCtx `mappend` bodyField "description"
+            posts <- fmap (take 10) . recentFirst =<<
+                loadAllSnapshots "posts/*" "content"
+            renderAtom myFeedConfiguration feedCtx posts
 
     match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- fmap (take 10) . recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
