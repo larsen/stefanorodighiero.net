@@ -1,0 +1,161 @@
+---
+title: How Bookflocks is made
+---
+
+<style>
+.small {
+    font-size: 80%;
+}
+.boxed {
+    display: block;
+    margin-left: 3.5em;
+    margin-right: 2.5em;
+    border: 1px solid #ccc;
+    padding: 2em
+}
+</style>
+
+A couple of friends asked me how I made
+[Bookflocks](http://bookflocks.com). In the spirit of caching what's
+requested more often, here some notes.
+
+## Requirements
+
+When I started the project, I had a few but very firm requirements in
+my head:
+
+* The server should serve static files;
+* I want to be able to edit all site contents using a
+  [superior](http://www.vim.org/)
+  [environment](https://www.gnu.org/software/emacs/), not a web app in
+  the browser (other obvious solutions are considered as even worst:
+  for example, to keep cut&paste-ing back and forth from the editor to
+  the browser);
+* No fixed structure: the website will not be (or will not only be) a
+  collection of posts;
+* Interviews and books metadata must be decoupled from the publishing
+  infrastructure, and available for other uses;
+
+The first and second requirements mean I don't want things like
+Wordpress.  The third one seems to exclude all blog related software,
+except maybe for tools seriously meant to be customized by their
+users. Like Hakyll, where the
+[first thing you do](http://jaspervdj.be/hakyll/tutorials/01-installation.html#building-the-example-site)
+is generating *your own version* of the site generation script, where
+further personalizations will take place.
+
+The last requirement is very important, let me digress a little bit on
+it.
+
+## Structure
+
+Bookflocks' idea is quite simple: I ask people what book have been
+particularly important for them, and they cite a few books usually
+explaining their preference.  Besides the main question, I also ask
+for a presentation and an idea about the book they'd wish to write.
+
+An interview is therefore *a set of paragraphs, each one linked to
+zero or more books*. The final page for the interview displays some
+bibliographical information for each linked book.
+
+Of course the same book can be cited in more than one interview (as
+[it happened for «Gödel, Escher, Bach»](http://bookflocks.com/book/hofstadter1999godel),
+for example), and I want to be able to link to other interviews citing
+the same title as well.
+
+Here a graph showing a small portion of the data I collected so far
+(it has been generated automatically: this is one of the "other uses" I
+was talking about).
+
+![](/images/bookflocks-graph-1.png)
+
+For these reasons books and interviews must be distinct entities in my
+model, and I need special means to express the relationship between
+them: bibliographical informations will reside in some sort of
+database, and I'll add links to those records across every file
+representing an interview.
+
+I started trying to attach metadata in each paragraph and to persuade
+Hakyll to fetch the relevant informations to put to in the template,
+but my poor grasp on Haskell didn't allow me to arrive at anything
+substantial.
+
+## Tools
+
+I ended up gathering a bunch of very well known tools that in time
+proved to be well fit for this task.
+
+* Books metadata are managed using **[BibTeX]()**, which has an indisputable
+  record of good performance at doing so.
+  
+* Interviews are stored in a slightly modified, homemade flavour of **[Markdown]()**. Each file is divided into sections; each section is
+parsed separately and in this phase I check for special directives
+that provide links to BibTeX entries. For example (this is from [the interview with Damian Conway](http://bookflocks.com/interview/damian.conway)):
+
+
+~~~~ {.small .boxed}
+% bibtex_entry=hofstadter1999godel
+
+As I read this book, I finally understood what
+it was that I loved about programming, and why it
+would be my career. I was mired in the engineering
+year of a CS/Engineering double degree at the
+time, but the beauty and elegance and intricacy
+that "GEB" revels in resonated so strongly [omissis]
+~~~~
+
+* **[Perl]()** As I said, Interviews are composed by various sections:
+
+        # ... Somewhere in the Interview class ...
+
+        has 'sections'  => (
+            is => 'rw',
+            isa => 'ArrayRef[Section]',
+            default => sub {[]}
+        );
+  
+    Each section contains the text for the paragraph itself, and possibly
+some additional metadata, such as the books the section is linked to.
+
+        my $section = Interview::Section->new(
+          metadata => $meta,
+          text     => join( "\n", @section_text_lines )
+        );
+
+    Here the entire method for displaying an interview:
+    
+        get '/interview/:name' => sub {
+          my $name = param('name');
+          my $interview = Interview->new;
+          $interview->read_from_file( $name . ".markdown" );
+
+          template 'interview', {
+            interview => $interview,
+            title     => $interview->name
+          };
+        };
+
+    The data structure prepared is passed to a template. What I'm
+    showing here is only a significantly simplified version of the markup,
+    note however that each paragraph in rendered separately, using
+    Template Toolkit's plugin
+    [Template::Plugin::Markdown](https://metacpan.org/pod/Template::Plugin::Markdown)
+
+        [% FOREACH s IN interview.sections %]
+        ...
+          <div>
+            [% s.text | markdown %]
+          </div>
+        ...
+
+* **[Dancer](https://metacpan.org/pod/Dancer)** +
+  **[wallflower](https://metacpan.org/pod/distribution/App-Wallflower/bin/wallflower)**
+  Every page is generated locally on my own machine running the
+  server. I fiddle and hack until I'm satisfied with the result. At
+  this point I use wallflower to produce a file for every
+  page of the site.
+  
+* **rsync** Nothing surprising. The files produced by wallflower are
+  rsync-ed to the remote server, and *voilà*, we're online.
+
+
