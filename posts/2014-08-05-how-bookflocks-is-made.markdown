@@ -85,12 +85,16 @@ substantial.
 I ended up gathering a bunch of very well known tools that in time
 proved to be well fit for this task.
 
-* Books metadata are managed using **[BibTeX]()**, which has an indisputable
+* Books metadata are managed using
+  **[BibTeX](http://www.bibtex.org/)**, which has an indisputable
   record of good performance at doing so.
   
-* Interviews are stored in a slightly modified, homemade flavour of **[Markdown]()**. Each file is divided into sections; each section is
-parsed separately and in this phase I check for special directives
-that provide links to BibTeX entries. For example (this is from [the interview with Damian Conway](http://bookflocks.com/interview/damian.conway)):
+* Interviews are stored in a slightly modified, homemade flavour of
+**[Markdown](http://daringfireball.net/projects/markdown/)**. Each
+*file is divided into sections; each section is parsed separately and
+*in this phase I check for special directives that provide links to
+*BibTeX entries. For example (this is from
+*[the interview with Damian Conway](http://bookflocks.com/interview/damian.conway)):
 
 
 ~~~~ {.small .boxed}
@@ -104,7 +108,7 @@ time, but the beauty and elegance and intricacy
 that "GEB" revels in resonated so strongly [omissis]
 ~~~~
 
-* **[Perl]()** As I said, Interviews are composed by various sections:
+* **[Perl](http://www.perl.org)** As I said, Interviews are composed by various sections:
 
         # ... Somewhere in the Interview class ...
 
@@ -157,5 +161,3 @@ some additional metadata, such as the books the section is linked to.
   
 * **rsync** Nothing surprising. The files produced by wallflower are
   rsync-ed to the remote server, and *voilà*, we're online.
-
-
