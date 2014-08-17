@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Hakyll
-import           Text.Pandoc
-
+import Data.Monoid (mappend)
+import Hakyll
+import Text.Pandoc
+import System.Environment
 --------------------------------------------------------------------------------
 
 -- MathJax as Math backend
@@ -22,8 +22,14 @@ myFeedConfiguration = FeedConfiguration
     }
 
 main :: IO ()
-main = hakyll $ do
+main = do
+  (action:_) <- getArgs
+  let previewMode = action == "preview"
+      posts       = if previewMode
+                    then "posts/*" .||. "drafts/*"
+                    else "posts/*"
 
+  hakyll $ do
     match "images/**" $ do
         route   idRoute
         compile copyFileCompiler
@@ -44,7 +50,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
-    match "posts/*" $ do
+    match posts $ do
         route $ setExtension "html"
         compile $ pandocCompilerWith defaultHakyllReaderOptions pandocOptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
@@ -55,7 +61,7 @@ main = hakyll $ do
     create ["archive.html"] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll posts
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives"            `mappend`
@@ -77,7 +83,7 @@ main = hakyll $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- fmap (take 10) . recentFirst =<< loadAll "posts/*"
+            posts <- fmap (take 10) . recentFirst =<< loadAll posts
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
