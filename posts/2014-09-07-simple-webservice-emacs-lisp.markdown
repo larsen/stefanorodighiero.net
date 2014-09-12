@@ -75,7 +75,7 @@ used so that `elnode-hostpath-dispatcher` can read the path.
 
 `moew:form` simply serve a static html file (you can find the complete
 source in the
-[github project for moew](https://github.com/larsen/moew).
+[github project for moew](https://github.com/larsen/moew)).
 
 ~~~~ {.commonlisp}
 (defun moew:form (httpcon)
@@ -84,8 +84,9 @@ source in the
 ~~~~
 
 `moew:keywords` is slightly more interesting. It serves (in JSON,
-thanks to `json-encode`, a function in the json package) a
-representation of the particular
+thanks to `json-encode`, a function in the
+[json package](http://www.emacswiki.org/emacs/JSON)) a representation
+of the particular
 [org-todo-keywords](http://orgmode.org/manual/Workflow-states.html#Workflow-states)
 sequence.
 
@@ -117,16 +118,17 @@ My solution is admittedly very simple, perhaps too simple (and the
 example described here certainly lacks basic safety checks and
 error handling). Other tools you might consider are
 
-* [MobileOrg](http://mobileorg.ncogni.to/), a _"open source iPhone and iPod Touch application for storing, searching, viewing and editing your Org-mode files"_;
+* [MobileOrg](http://mobileorg.ncogni.to/), a _"open source iPhone and
+  iPod Touch application for storing, searching, viewing and editing
+  your Org-mode files"_;
 * There's also a MobileOrg
   [implementation for Android](https://play.google.com/store/apps/details?id=com.matburt.mobileorg&hl=en);
 
 ## Further thoughts
 
-One might object I'm bending too much the infamous
-versatility of Emacs.  I would have certainly said the same a few
-weeks ago, but I think [Nic Ferrier](http://nic.ferrier.me.uk/)
--author of Elnode-
+One might object I'm bending too much the infamous versatility of
+Emacs.  I would have certainly said the same a few weeks ago, but I
+think [Nic Ferrier](http://nic.ferrier.me.uk/) -author of Elnode-
 [eloquently illustrated a different and interesting point of view here](http://nic.ferrier.me.uk/blog/2014_07/an-emacs-book).
 
 > The right reason to use Emacs is that it's a tool for building
