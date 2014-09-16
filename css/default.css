@@ -1,9 +1,10 @@
 body {
     color: black;
-    font-size: 16px;
-    font-family: Georgia,Times,sans-serif;
+    font-size: 16pt;
+    line-height: 22pt;
+    font-family: Garamong, serif;
     margin: 0px auto 0px auto;
-    width: 600px;
+    width: 80%;
 }
 
 div#header {
@@ -43,13 +44,17 @@ div#footer {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 24pt;
     font-family: 'FaktConPro-SemiBold',Helvetica,Arial,sans-serif;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 20pt;
     font-family: Georgia,Times,sans-serif;
+}
+
+pre {
+  font-size: 80%;
 }
 
 div.info {
