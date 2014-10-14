@@ -66,3 +66,16 @@ div.info {
 .figure img {
   width: 600px;
 }
+
+table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+td {
+    padding: .5em;
+}
+
+blockquote {
+  font-style: italic;
+}
