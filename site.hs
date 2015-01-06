@@ -4,6 +4,7 @@ import Data.Monoid (mappend, mconcat)
 import Hakyll
 import Text.Pandoc
 import System.Environment
+import System.Locale (iso8601DateFormat)
 --------------------------------------------------------------------------------
 
 -- MathJax as Math backend
@@ -83,7 +84,7 @@ main = do
     create ["sitemap.xml"] $ do
         route idRoute
         compile $ do
-            posts <- loadAll (("pages/*" .||. "posts/*" ) .&&. hasNoVersion)
+            posts <- loadAll (("pocketperl/**" .||. "posts/*" ) .&&. hasNoVersion)
             itemTpl <- loadBody "templates/sitemap-item.xml"
             list <- applyTemplateList itemTpl (sitemapCtx myFeedConfiguration) posts
             makeItem list
@@ -110,6 +111,8 @@ main = do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
+    dateField "date.machine" (iso8601DateFormat Nothing) `mappend`
+    modificationTimeField "updated.machine" (iso8601DateFormat Nothing) `mappend`
     defaultContext
 
 feedCtx :: Context String

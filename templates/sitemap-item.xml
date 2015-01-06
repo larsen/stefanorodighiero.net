@@ -1,4 +1,4 @@
 <url>
     <loc>$root$$url$</loc>
-    <lastmod>$date$</lastmod>
+    <lastmod>$updated.machine$</lastmod>
 </url>
