@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import Data.Monoid (mappend)
+import Data.Monoid (mappend, mconcat)
 import Hakyll
 import Text.Pandoc
 import System.Environment
@@ -80,6 +80,15 @@ main = do
                 loadAllSnapshots "posts/*" "content"
             renderAtom myFeedConfiguration feedCtx posts
 
+    create ["sitemap.xml"] $ do
+        route idRoute
+        compile $ do
+            posts <- loadAll (("pages/*" .||. "posts/*" ) .&&. hasNoVersion)
+            itemTpl <- loadBody "templates/sitemap-item.xml"
+            list <- applyTemplateList itemTpl (sitemapCtx myFeedConfiguration) posts
+            makeItem list
+                >>= loadAndApplyTemplate "templates/sitemap.xml" defaultContext
+
     match "index.html" $ do
         route idRoute
         compile $ do
@@ -102,3 +111,13 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+feedCtx :: Context String
+feedCtx = mconcat [ postCtx
+                  , metadataField
+                  ]
+
+sitemapCtx :: FeedConfiguration -> Context String
+sitemapCtx conf = mconcat [ constField "root" (feedRoot conf)
+                          , feedCtx
+                          ]
