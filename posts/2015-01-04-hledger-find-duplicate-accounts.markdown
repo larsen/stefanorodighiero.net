@@ -77,7 +77,7 @@ return:
 
 Now, we need to compute the list of duplicates. Let's first focus on
 the core of the function: according to me is the more interesting and
-elegant part of the program (no wonder is largely by me, but adapted
+elegant part of the program (no wonder is largely not by me, but adapted
 from code I found in a post by Neil Mitchell,
 ["Repeated Word Detection with Haskell"](http://neilmitchell.blogspot.it/2013/09/repeated-word-detection-with-haskell.html)).
 
