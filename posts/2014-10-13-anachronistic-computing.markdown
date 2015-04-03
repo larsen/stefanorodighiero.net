@@ -31,7 +31,7 @@ it takes is some attention to the software one chooses to install:
 * Linux, obvious choice to revive old hardware (in this case, I had to
   recur to a non-PAE kernel due to the particular CPU architecture)
 * [i3](http://i3wm.org/), a lightweight tiling window manager
-* Emacs 24.3, where I'm going to spend much of my time ([w3m](http://www.emacswiki.org/emacs/emacs-w3m) is a
-  decent surrogate of a proper graphical browser for reading
-  documentation)
+* Emacs 24.3, where I'm going to spend much of my time
+  ([w3m](http://www.emacswiki.org/emacs/emacs-w3m) is a decent
+  surrogate of a proper graphical browser for reading documentation)
 * I'm even running Hakyll locally to prepare this post
