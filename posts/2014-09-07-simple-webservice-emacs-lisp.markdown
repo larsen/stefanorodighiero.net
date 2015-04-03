@@ -1,5 +1,6 @@
 ---
 title: A simple webservice in Emacs Lisp
+tags: programming, emacs, elisp, webservice
 ---
 
 During the last months I spent a lot of time using Emacs, growing more
