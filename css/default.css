@@ -54,7 +54,8 @@ h2 {
 }
 
 pre {
-  font-size: 80%;
+    font-size: 80%;
+    padding-left: 2em;
 }
 
 div.info {
