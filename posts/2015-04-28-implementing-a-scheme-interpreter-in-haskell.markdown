@@ -21,7 +21,7 @@ definitely learning a lot.
 
 My implementation is still a work in progress but I guess the core
 won't be subject to radical changes, so here a quick review of its
-main parts.
+main parts. [Code is available on github](https://github.com/larsen/wiz).
 
 I'm following the design described in [Chapter
 4](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start)
