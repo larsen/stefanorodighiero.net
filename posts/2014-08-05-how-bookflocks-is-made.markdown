@@ -1,5 +1,6 @@
 ---
 title: How Bookflocks is made
+tags: programming, books
 ---
 
 <style>

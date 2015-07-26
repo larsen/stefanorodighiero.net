@@ -1,5 +1,6 @@
 ---
 title: The Martian
+tags: books, sf
 ---
 
 Exactly.

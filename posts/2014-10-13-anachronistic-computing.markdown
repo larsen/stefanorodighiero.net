@@ -1,5 +1,6 @@
 ---
 title: Anachronistic computing
+tags: hardware, linux
 ---
 
 Yay! The laptop I recently bought for a ridiculously low price is

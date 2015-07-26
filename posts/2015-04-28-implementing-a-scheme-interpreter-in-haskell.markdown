@@ -1,6 +1,6 @@
 ---
 title: Implementing a Scheme interpreter in Haskell
-tags: haskell, scheme, interpreter
+tags: programming, haskell, scheme, interpreter
 ---
 
 I started this project with a few goals in mind:

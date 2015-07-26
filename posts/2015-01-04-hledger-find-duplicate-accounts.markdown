@@ -1,5 +1,6 @@
 ---
 title: Finding duplicate accounts in Hledger journals
+tags: programming, haskell, ledger, finance
 ---
 
 Last year I was disciplined enough to manage my expenses using
