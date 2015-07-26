@@ -1,6 +1,6 @@
 ---
 title: Composing multiple Mojolicious apps with Plack
-tags: programming, perl, mojoliciosu
+tags: programming, perl, mojolicious
 ---
 
 At work, we've built a number of internal web applications to perform various
