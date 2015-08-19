@@ -1,0 +1,9 @@
+---
+title: Stream
+tags: meta
+---
+
+Sometimes I feel like posting things that are too long for Twitter and
+not enough articulated to become a blog article. So I setup a
+[stream](http://stefanorodighiero.net/stream/) to gather those
+ramblings.
