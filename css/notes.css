@@ -300,9 +300,9 @@ dt {
   padding: 1em;
 }
 
-.figure p {
-  text-align: center;
-}
+/* .figure p { */
+/*   text-align: center; */
+/* } */
 
 .inlinetask {
   padding: 10px;
