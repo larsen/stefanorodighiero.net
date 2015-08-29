@@ -394,9 +394,9 @@ h6 {
 .outline-2 h2 {
   border-bottom: 1px solid #cccccc;
 }
-.outline-2 a {
-  font-family: "Ubuntu Mono", Monaco, "Courier New", monospace;
-}
+/* .outline-2 a { */
+/*   font-family: "Ubuntu Mono", Monaco, "Courier New", monospace; */
+/* } */
 
 .outline-text-2 code, pre {
   background-color: #eeeeee;
