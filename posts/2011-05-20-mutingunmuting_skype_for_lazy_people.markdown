@@ -1,5 +1,6 @@
 ---
 title: Muting/unmuting Skype for lazy people
+tags: applescript, programming, telecommuting
 ---
 
 With my current employer, we decided telecommuting was worth a try.

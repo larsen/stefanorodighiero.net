@@ -1,5 +1,6 @@
 ---
 title: 2011 in books
+tags: books
 ---
 
 ## Essays/Computer science/$work stuff
