@@ -1,5 +1,6 @@
 ---
 title: Music Hackday Barcelona
+tags: programming
 ---
 
 Today I attended the first half of the [Music Hackday](http://bcn.musichackday.org/), in Barcelona. Here some pictures:

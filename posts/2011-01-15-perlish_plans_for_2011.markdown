@@ -1,5 +1,6 @@
 ---
 title: Perlish plans for 2011
+tags: perl
 ---
 
 <a href="http://www.flickr.com/photos/stefanorodighiero/4875422128/" title="IMG_2788 by larsen, on Flickr"><img src="http://farm5.staticflickr.com/4094/4875422128_ab97053e78.jpg" width="500" height="333" alt="IMG_2788"></a>

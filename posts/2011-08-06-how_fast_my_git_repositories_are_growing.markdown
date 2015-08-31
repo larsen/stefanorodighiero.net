@@ -1,5 +1,6 @@
 ---
 title: How fast my git repositories are growing?
+tags: R, programming
 ---
 
 I wrote a very small utility to gather LOC counts from a git repository. Called

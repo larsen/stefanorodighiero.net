@@ -1,5 +1,6 @@
 ---
 title: Kindle: first impressions
+tags: kindle, books
 ---
 
 I just unboxed my [Kindle](http://en.wikipedia.org/wiki/Amazon_Kindle). I played with it

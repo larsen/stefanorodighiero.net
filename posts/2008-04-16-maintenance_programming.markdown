@@ -1,5 +1,6 @@
 ---
 title: Maintenance programming
+tags: bash, programming
 ---
 
 ``` bash

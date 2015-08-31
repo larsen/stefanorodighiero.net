@@ -1,5 +1,6 @@
 ---
 title: Music Hack Day London 2011
+tags: programming
 ---
 
 Last weekend, I went to London to participate in the 
