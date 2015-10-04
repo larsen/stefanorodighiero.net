@@ -12,7 +12,7 @@ title: About
 And here some facts about me:
 
 * I was blessed by the opportunity of writing an [introductory book about
-  Perl](http://www.stefanorodighiero.net/pocketperl/), published in Italy by
+  Perl](/pocketperl/), published in Italy by
   Apogeo. I wrote most of it by night, in two continents and four countries (or
   during flights).
 
