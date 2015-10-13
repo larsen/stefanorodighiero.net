@@ -103,7 +103,7 @@ few hours. I was wrong. I'm still making a lot of errors, I'm very
 slow, and I have to look where my fingers are while I type. In other
 words, I have not yet the sensation that I'm in control of my
 system. But I'm seeing the progress: Atreus surely requires some
-commitment.@w
+commitment.
 
 Also, changes to the usual layout are very radical. Take cursor keys,
 for example.
