@@ -356,10 +356,10 @@ blockquote {
 
 body {
   font: 1em/1.5em Palatino, Georgia, serif;
-  width: 92%;
+  width: 80%;
   max-width: 1024px;
   margin: 0 auto;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 }
 
 h2 {
@@ -367,10 +367,11 @@ h2 {
 }
 
 .title {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
   line-height: 2em;
-  border-bottom: 5px solid #ea4c89;
-  text-align: center;
+  /* border-bottom: 5px solid #ea4c89; */
+  text-align: left;
+  font-size: 4em;
 }
 
 #postamble {
