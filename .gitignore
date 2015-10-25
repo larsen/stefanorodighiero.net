@@ -4,6 +4,7 @@
 site
 drafts
 stream
+wiki/*.html
 
 # generated files
 
