@@ -15,7 +15,7 @@
 #+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #+INFOJS_OPT:
 #+LATEX_HEADER:
-#+SETUPFILE: ~/org/notes-style2.org
+#+SETUPFILE: ~/org/notes-style.org
 
 * Emacs
 
