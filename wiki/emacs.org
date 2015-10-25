@@ -1,0 +1,119 @@
+#+TITLE: Emacs
+#+DATE: <2014-04-26 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+EMAIL: larsen@ip-192-168-1-94.ec2.internal
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t toc:2 num:0
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style2.org
+
+* Emacs
+
+** Keys and commands 
+*** General
+| Key sequence  | Command                                                             | Elisp function |
+|---------------+---------------------------------------------------------------------+----------------|
+| =C-x r t=     | Rectagle: prefix                                                    |                |
+| =C-c C-x C-v= | Toggle inline image mode                                            |                |
+| =M-g M-g=     | Goto line…                                                          |                |
+| =C-u C-x C-e= | Eval and insert output at point                                     |                |
+| =M-0 C-k=     | Kill and yank backwards                                             |                |
+| =C-s C-w=     | Appends the rest of the word under the cursor to the search pattern |                |
+
+*** Dired
+| Key sequence | Command                      | Elip function |
+|--------------+------------------------------+---------------|
+| =+=          | Create directory             |               |
+| =m/u=        | Mark/Unmark for deletion     |               |
+| =C-c C-q=    | Edit mode                    |               |
+| =C-c C-c=    | (in edit mode) Apply changes |               |
+| =C-c C-k=    | (in edit mode) Cancel        |               |
+
+*** Org-mode
+| Key sequence | Command                                        | Elisp function                  |
+|--------------+------------------------------------------------+---------------------------------|
+| =C-c c=      | Capture                                        |                                 |
+| =C-c C-w=    | Refile                                         | =(org-refile)=                  |
+| =C-c C-t=    | Toggle state                                   |                                 |
+| =C-c C-d=    | Add deadline                                   |                                 |
+| =C-c /=      | Sparse tree                                    | =(org-sparse-tree)=             |
+| =C-c C-x b=  | Show the current subtree in an indirect buffer | =(org-tree-to-indirect-buffer)= |
+
+*** Markdown mode
+| Key sequence | Command           | Elisp function                 |
+| =C-c C-s b=  | Insert blockquote | =(markdown-insert-blockquote)= |
+| =C-c C-c p=  | Preview           |                                |
+
+** Code snippets
+*** General
+
+Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-or-command]]
+
+#+BEGIN_SRC emacs-lisp
+(when (eq system-type 'darwin)
+  (setq mac-right-option-modifier 'none))
+#+END_SRC
+*** Switch theme
+
+Disables all enabled themes before activating the new one:
+
+#+BEGIN_SRC emacs-lisp
+  (defun switch-theme (theme)
+    (interactive
+     (list
+      (intern (completing-read "Switch to custom theme: "
+                               (mapcar 'symbol-name
+                                       (custom-available-themes))))))
+    (dolist (curr custom-enabled-themes) (disable-theme curr))
+    (load-theme theme))
+#+END_SRC
+
+*** Create thumbnail
+#+BEGIN_SRC emacs-lisp
+(defun create-thumbnail (filename)
+  (let* ((dir (file-name-directory filename))
+         (basename (file-name-base filename))
+         (extension (downcase (file-name-extension filename)))
+         (thumb-filename (concat dir basename "-thumb." extension)))
+    (call-process "convert" nil nil nil
+                  "-resize" "25%"
+                  filename
+                  thumb-filename)
+    thumb-filename))
+
+#+END_SRC
+*** Clone indirect buffer in another frame
+
+Rif.: http://superuser.com/questions/338140/edit-one-file-in-two-different-buffers-in-emacs
+
+#+BEGIN_SRC emacs-lisp
+(global-set-key [?\C-x ?5 ?c]
+  '(lambda(newname display-flag)
+    "Like `clone-indirect-buffer-other-window' but display in another frame."
+    (interactive
+      (progn
+        (if (get major-mode 'no-clone-indirect)
+          (error "Cannot indirectly clone a buffer in %s mode" mode-name))
+        (list (if current-prefix-arg
+          (read-buffer "Name of indirect buffer: " (current-buffer))) t)))
+    (save-window-excursion
+      (let ((newbuf (clone-indirect-buffer newname display-flag)))
+      (switch-to-buffer-other-frame newbuf)))))
+#+END_SRC
+*** Dired
+
+Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
+
+#+BEGIN_SRC emacs-lisp
+(setq dired-dwim-target t) 
+#+END_SRC

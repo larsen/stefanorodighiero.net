@@ -1,0 +1,162 @@
+#+TITLE: Links
+#+DATE: <2015-06-02 Tue>
+#+AUTHOR: Stefano Rodighiero
+#+EMAIL: larsen@ip-192-168-1-94.ec2.internal
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t toc:2 num:0
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+* Programming
+
+** Lisp
+
+**** [[https://mitpress.mit.edu/sicp/][Structure and Interpretation of Computer Programs]]              :book:
+**** [[http://scheme-reports.org/][Scheme Reports Process]]
+**** [[http://www.defmacro.org/ramblings/lisp-in-haskell.html][Writing A Lisp Interpreter In Haskell]]
+**** [[http://letoverlambda.com/][Let Over Lambda]]                                                :book:
+**** [[http://www.gigamonkeys.com/book/][Practical Common Lisp]]                                          :book:
+**** [[http://www.cliki.net/index][Common Lisp Wiki]]
+**** [[http://lists.warhead.org.uk/pipermail/iwe/2005-July/000130.html#][Why Lisp macros are cool, a Perl perspective]]
+**** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]
+**** [[http://www.defmacro.org/ramblings/lisp-ducati.html][Lisp - The Ducati of Programming Languages]]
+**** [[http://landoflisp.com/][Land of Lisp]]                                                      :book:
+** Haskell
+
+**** [[http://learnyouahaskell.com/chapters][Learn You a Haskell for Great Good!]]                            :book:
+**** [[http://book.realworldhaskell.org/][Real World Haskell]]                                             :book:
+**** [[http://aosabook.org/en/ghc.html][The Glasgow Haskell Compiler]]                                   :book:
+**** [[https://wiki.haskell.org/Typeclassopedia][Typeclassopedia]]
+**** [[http://projects.haskell.org/diagrams/doc/manual.html][Diagrams User Manual]]
+**** [[http://www.reddit.com/r/haskell/comments/2blsqa/papers_every_haskeller_should_read/][Papers every Haskeller should read]]                           :reddit:
+
+**** [[http://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf][The Haskell School of Music]]                                     :pdf:
+
+**** [[http://blog.ezyang.com/2010/05/design-patterns-in-haskel/][Design Patterns in Haskell]]
+**** [[https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions][Basic Syntax Extensions]]
+**** [[http://research.microsoft.com/en-us/um/people/simonpj/papers/slpj-book-1987/start.htm][The Implementation of Functional Programming Languages]]
+**** [[http://www.stephendiehl.com/posts/essential_compilers.html][A Haskell implementation reading list]]
+** Assembler
+
+**** [[http://www.cs.virginia.edu/~evans/cs216/guides/x86.html][x86 Assembly Guide]]
+**** [[http://cs.lmu.edu/~ray/notes/nasmtutorial/][Nasm tutorial]]
+**** [[http://dflund.se/~john_e/index.html][The Assembly Gems page]]
+** Logo
+
+**** [[http://www.cs.berkeley.edu/~bh/logo.html][Berkeley Logo (UCBLogo)]]
+**** [[http://www.alancsmith.co.uk/logo/][ACSLogo for Mac OS X]]
+** Forth
+**** [[http://thinking-forth.sourceforge.net/][Thinking Forth]]                                                 :book:
+** Misc
+**** [[http://programmingpraxis.com/][Programming Praxis]]
+     «This blog publishes new programming exercises weekly, at least,
+     so that savvy programmers can maintain their skills by working
+     the exercises and thinking outside their normal skill set,
+     whatever that is.»
+**** [[http://kunststube.net/encoding/][What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text]]
+**** [[http://blog.fogus.me/2011/09/08/10-technical-papers-every-programmer-should-read-at-least-twice/][10 Technical Papers Every Programmer Should Read (At Least Twice)]]
+
+
+* Math
+
+** Computer Science
+
+**** [[http://liinwww.ira.uka.de/bibliography/index.html][The Collection of Computer Science Bibliographies]]
+**** [[http://www.inwap.com/pdp10/hbaker/hakmem/hakmem.html][HAKMEM]]
+**** [[http://xlinux.nist.gov/dads//][Dictionary of Algorithms and Data Structures]]
+**** [[http://www.cs.cmu.edu/~crary/819-f09/][Classic Papers in Programming Languages and Logic]]
+**** [[http://carlos.bueno.org/2012/08/writers-reading-list.html][A Computer Science Writer's Reading List]]
+**** [[http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml][Great Works in Programming Languages]]
+**** [[http://dl.acm.org/classics.cfm][ACM Classic Books Series]]
+**** [[http://arxiv.org/pdf/1411.6758v3.pdf][Quantum factorization of 56153 with only 4 qubits]]               :pdf:
+**** [[http://science.raphael.poss.name/categories-from-scratch.html][Categories from scratch]]
+**** [[http://www.t3x.org/reload/index.html][Practical Compiler Construction]]
+**** [[http://en.wikipedia.org/wiki/Secretary_problem][Secretary Problem]]                                         :wikipedia:
+** Recreative Math
+
+**** [[http://jeffe.cs.illinois.edu/mathgames.html][Mathematical Games, Toys, and Puzzles]]
+**** [[http://cut-the-knot.org/][Interactive Mathematics Miscellany and Puzzles]]
+** Geometry
+
+**** [[http://www.ics.uci.edu/~eppstein/junkyard/][The Geometry Junkyard]]
+
+** Misc
+
+**** [[http://www.stephenwolfram.com/publications/mathematical-notation-past-future/][Mathematical Notation: Past and Future ]]
+**** [[http://oeis.org/][The On-Line Encyclopedia of Integer Sequences]]
+**** [[http://mathworld.wolfram.com/][MathWorld]]
+* Books
+
+*** [[http://www-users.cs.york.ac.uk/~susan/books/pages/index.htm][Susan Stepney's books reviews]]
+*** [[https://www.librarything.com/][Library Thing]]
+*** [[http://www.isfdb.org/][Internet Speculative Fiction Database]]
+*** Ebooks
+
+**** [[http://patshaughnessy.net/2012/11/27/my-ebook-build-process-and-some-pdf-epub-and-mobi-tips][My eBook build process and some PDF, EPUB and MOBI tips]]
+* Games
+
+** Chess
+
+**** [[http://chessprogramming.wikispaces.com/][Chess Programming]]
+
+**** [[http://stackoverflow.com/questions/494721/what-are-some-good-resources-for-writing-a-chess-engine][What are some good resources for writing a chess engine?]] :stackoverflow:
+**** [[https://code.google.com/p/blatta/][Blatta - Erlang Chess Engine]]
+**** [[http://chesstempo.com/][Chess Tempo]]
+**** [[http://www.chessgames.com/index.html][Chess Games]]
+**** [[http://en.lichess.org/][Lichess]]
+**** [[https://en.wikipedia.org/wiki/Minichess][Minichess]]                                                 :wikipedia:
+** Go
+**** [[http://computer-go-adventures.blogspot.ca/][Martin's Computer Go Adventures]]
+** Board games
+
+**** [[http://www.boardgameextras.co.uk/accessories.php][Board Games accessories]]
+
+**** [[http://www.spielematerial.de/en/][Spiele Material]]
+* Tools
+
+** Emacs
+
+**** [[https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html][An Introduction to Programming in Emacs Lisp]]
+**** [[http://emacsfodder.github.io/emacs-theme-editor/][Emacs Theme Editor]]
+**** [[http://danmidwood.com/content/2014/11/21/animated-paredit.html][The Animated Guide to Paredit]]
+
+**** [[http://danzig.jct.ac.il/unix_class/emacs-vi-Commands.html][Equivalence of VIM and Emacs commands]]
+**** [[http://jblevins.org/projects/markdown-mode/][Emacs Markdown mode]]
+**** org-mode
+
+***** [[https://www.gnu.org/software/emacs/manual/html_node/org/index.html#SEC_Contents][Org Mode Manual]]
+***** [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
+***** [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][David O'Toole Org tutorial]]
+***** [[http://nibrahim.net.in/2011/07/17/my_org_mode_setup.html][Noufal Ibrahim's org setup]]
+***** [[http://www.star.bris.ac.uk/bjm/org-basics.html][org-mode basics]]
+***** [[https://github.com/dfeich/org-babel-examples][org-babel example collection]]
+** Keyboards
+
+**** [[http://falbatech.pl/prestashop/index.php?id_category%3D12&controller%3Dcategory][Falba Tech]]
+
+**** [[http://atreus.technomancy.us/][Atreus]]
+
+***** [[http://imgur.com/a/PwY9T][Atreus construction log]]
+* Electronics
+**** [[http://lcamtuf.coredump.cx/electronics/][Concise electronics for geeks]]
+**** [[http://www.bigmessowires.com/2014/11/17/68-katy-68000-linux-on-a-solderless-breadboard/][68 Katy – 68000 Linux on a Solderless Breadboard]]
+* People
+
+** [[http://okmij.org/ftp/][Oleg Kiselyov]]
+** [[http://conal.net/][Conal Elliott]]
+
+** Academia
+
+*** Computer Science
+
+**** [[http://homepages.inf.ed.ac.uk/wadler/][Philip Wadler]]

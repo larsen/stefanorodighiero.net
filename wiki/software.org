@@ -1,0 +1,160 @@
+#+TITLE: Software
+#+DATE: <2015-08-26 Wed>
+#+AUTHOR: Stefano Rodighiero
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t toc:2 num:0
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+INFOJS_OPT:
+#+SETUPFILE: ~/org/notes-style2.org
+
+* Software I'm looking for
+
+Here some software I'm looking for. If you happen to have something to suggest
+please contact me!
+
+** <2015-10-02 Fri> Something to gather, organize and maintain a collection of scientific papers
+*** My /non-workflow/ is currently like:
+- Download a paper (PFD, Postscript, …); most of time I'm willing to
+  read it later
+- When I finally have time to read it, I discover I lost the file
+  - Perhaps because usually the filename has little to do with its
+    content?
+- Download the paper again
+  - It's possible I'll decide to place the file somewhere else
+  - I currently have many directories that were created as THE place
+    where I should collect papers
+- Read and annotate it (I'm currently using Preview.app for that)
+
+*** I'd like to be able to do more:
+- Maintain a list of papers I downloaded, with metadata
+- The archive should be easily searchable
+- Be able to add my own metadata, like tags
+- I want to store the files on the filesystem, but with some sort of
+  infrastructure layer upon it to access them
+
+*** Things I'd rather not use:
+- Anything "in the cloud"
+- Anything web based (but I'm non strict about that)
+- Anything that forces me to manipulate the original file (like,
+  storing it in blobs/virtual-fs thus masking it in the native FS)
+
+*** Things I'm considering                                            :wip:
+
+| Product  | Metadata | Search | FS based | In the cloud | Web based | Price   |
+| [[http://www.papersapp.com/][Papers]]   | ✓        | ✓      | ✓        |              | -[fn:1]         | € 71.98 |
+| [[https://www.mendeley.com][Mendeley]] |          |        |          |              |           |         |
+
+** <2015-10-02 Fri> Something cross platform that allows PDF reading and annotating
+
+* Software I use
+This is a collection of pointers to software I use regularly and that
+I find useful.
+
+I marked with a tag software that is only available on the specific
+platform I'm currently using (Mac OS X) thus, by this fact itself,
+programs I ought to replace with something less restrictive.
+
+** Emacs
+I use Emacs for code, notes, agenda, part of this site, and basically
+for all my text editing tasks.
+
+- [[https://github.com/larsen/emacs-configuration][My configuration]]. This repository is normally a couple of iterations
+  behind what I actually use
+- [[http://stefanorodighiero.net/tags/emacs.html][Articles tagged /emacs/]]. I occasionally write about how I use Emacs,
+  when I think one particular application might be of interest for
+  other people.
+- Main packages I use:
+  - [[http://orgmode.org/][org-mode]]
+  - [[https://emacs-helm.github.io/helm/][helm]]
+  - [[http://magit.vc/][magit]]
+  - [[http://emacswiki.org/emacs/Yasnippet][yasnippet]]
+  - [[https://github.com/magnars/multiple-cursors.el][multiple cursors]]
+
+** Vim
+Before switching to Emacs I was a heavy Vim users. I still appreciate
+it and it's my choice when it comes to edit text on remote systems. My
+configuration: [[https://github.com/larsen/vim-configuration][https://github.com/larsen/vim-configuration]].
+
+If you want to improve your Vim skill, [[https://pragprog.com/book/dnvim/practical-vim][Practical Vim]] is an excellent
+resource.
+
+[[file:./images/dnvim_xlargecover.jpg]]
+
+** [[http://hledger.org/][hledger]]
+I started registering *all* my expenses in 2014. hledger is a version
+of ledger written in Haskell. Having access at the underlying library
+is useful, here an article I wrote about that: [[http://stefanorodighiero.net/tags/ledger.html][Finding duplicate accounts in Hledger journals]].
+
+** [[http://jaspervdj.be/hakyll/][hakyll]]
+Hakyll is a static site generator written in Haskell. It powers the
+blog section of my site.
+
+** git
+
+** iTerm2                                                              :mac:
+I am one of those guys that practically live in a shell. After a long
+time spent in Terminal.app I found this. It has many additional
+features that make life simpler or even nicer (badges, shell integration, …).
+
+** [[https://www.rstudio.com/][RStudio]]
+I occasionally use R (in the integrated environment RStudio), mostly
+to produce graphics using ggplot2.
+
+** Apple Keynote                                                        :mac:
+I occasionally give presentations. I was very fond of [[http://member.wide.ad.jp/wg/mgp/][MagicPoint]] back
+when I was using Linux, but when I switched to Mac OS X I didn't think
+the X11 dependancy was convenient. Keynote takes a totally different
+approach but is good enough.
+
+** Excel
+I love spreadsheets, in general. Or "spreadsheet computing", as I'm
+compelled to say. I would like to use something not-proprietary but
+Excel is still the best in the category.
+
+** Chrome
+
+** irssi
+Always on, on a remote system to which I connect via ssh. Sometimes I
+think about using something like [[http://wiki.znc.in/ZNC][znc]] to integrate IRC in Emacs but I
+guess the benefits aren't worth the time.
+
+** VirtualBox
+
+** Spotify
+
+** Calibre
+** VLC
+* Utilities
+
+** Midnight Commander
+
+** Slate                                                               :mac:
+I'd love to use a tiling window manager (i3 or xmonad, probably), but
+I'm on a Mac so the best I could find is this utility.
+
+** TunnelBlick                                                         :mac:
+
+* Dismissed
+
+** Nisus Writer                                                        :mac:
+I now use different tools for writing, but Nisus Writer is worth
+mentioning because it's the product I used, back in 2008, for my
+largest writing project so far: [[http://stefanorodighiero.net/pocketperl/][Pocket Perl]].
+
+** Evernote                                                            :mac:
+
+** Quicksilver                                                         :mac:
+
+** Spectacle                                                           :mac:
+
+* Footnotes
+
+[fn:1] Available as optional online service
