@@ -64,7 +64,8 @@ programs I ought to replace with something less restrictive.
 
 ** Emacs
 I use Emacs for code, notes, agenda, part of this site, and basically
-for all my text editing tasks.
+for all my text editing tasks. I'm currently using the build available
+from [[http://emacsformacosx.com/][emacsformacosx.com]].
 
 - [[https://github.com/larsen/emacs-configuration][My configuration]]. This repository is normally a couple of iterations
   behind what I actually use
@@ -99,7 +100,7 @@ blog section of my site.
 
 ** git
 
-** iTerm2                                                              :mac:
+** [[https://www.iterm2.com/][iTerm2]]                                                              :mac:
 I am one of those guys that practically live in a shell. After a long
 time spent in Terminal.app I found this. It has many additional
 features that make life simpler or even nicer (badges, shell integration, …).
@@ -122,7 +123,7 @@ Excel is still the best in the category.
 ** Chrome
 
 ** irssi
-Always on, on a remote system to which I connect via ssh. Sometimes I
+Always on, on a remote system to which I connect to via ssh. Sometimes I
 think about using something like [[http://wiki.znc.in/ZNC][znc]] to integrate IRC in Emacs but I
 guess the benefits aren't worth the time.
 

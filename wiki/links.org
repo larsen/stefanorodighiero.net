@@ -31,6 +31,7 @@
 **** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]
 **** [[http://www.defmacro.org/ramblings/lisp-ducati.html][Lisp - The Ducati of Programming Languages]]
 **** [[http://landoflisp.com/][Land of Lisp]]                                                      :book:
+**** [[http://paulgraham.com/onlisptext.html][On Lisp]]                                                        :book:
 ** Haskell
 
 **** [[http://learnyouahaskell.com/chapters][Learn You a Haskell for Great Good!]]                            :book:
@@ -122,6 +123,8 @@
 **** [[http://www.boardgameextras.co.uk/accessories.php][Board Games accessories]]
 
 **** [[http://www.spielematerial.de/en/][Spiele Material]]
+** Misc
+*** [[http://www.ifwiki.org/index.php/Main_Page][Interactive Fiction Wiki]]
 * Tools
 
 ** Emacs
@@ -147,6 +150,8 @@
 **** [[http://atreus.technomancy.us/][Atreus]]
 
 ***** [[http://imgur.com/a/PwY9T][Atreus construction log]]
+
+**** [[http://www.keyboard-layout-editor.com/][Keyboard Layout Editor]]
 * Electronics
 **** [[http://lcamtuf.coredump.cx/electronics/][Concise electronics for geeks]]
 **** [[http://www.bigmessowires.com/2014/11/17/68-katy-68000-linux-on-a-solderless-breadboard/][68 Katy – 68000 Linux on a Solderless Breadboard]]
