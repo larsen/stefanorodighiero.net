@@ -6,7 +6,7 @@ tags: books
 ## Essays/Computer science/$work stuff
 
 * [Programming Pig](http://www.amazon.com/dp/1449302645)
-* [Hadoop The definitive guid](http://www.amazon.com/dp/1449302645)
+* [Hadoop The definitive guide](http://www.amazon.com/dp/1449302645)
 * [Cassandra: The definitive guide](http://www.amazon.com/dp/1449390412)
 * [Data Analysis with Open Source Tools](http://www.amazon.com/dp/0596802358)
 
