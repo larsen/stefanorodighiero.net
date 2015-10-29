@@ -20,6 +20,10 @@
 Here some software I'm looking for. If you happen to have something to suggest
 please contact me!
 
+** <2015-10-28 Wed> Backup software
+I'm currently using Time Machine for backups. It certainly works well,
+but as I'm considering the opportunity of switching back to Linux, I
+should devise a new way to do backups.
 ** <2015-10-02 Fri> Something to gather, organize and maintain a collection of scientific papers
 *** My /non-workflow/ is currently like:
 - Download a paper (PFD, Postscript, …); most of time I'm willing to
@@ -99,6 +103,9 @@ Hakyll is a static site generator written in Haskell. It powers the
 blog section of my site.
 
 ** git
+I use github for work and [[https://github.com/larsen][for some public projects]].  Everyone of my
+projects is also in a remote repository on one of my servers. I use
+git-web to browse them.
 
 ** [[https://www.iterm2.com/][iTerm2]]                                                              :mac:
 I am one of those guys that practically live in a shell. After a long

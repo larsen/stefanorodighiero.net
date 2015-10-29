@@ -22,16 +22,17 @@
 ** Lisp
 
 **** [[https://mitpress.mit.edu/sicp/][Structure and Interpretation of Computer Programs]]              :book:
-**** [[http://scheme-reports.org/][Scheme Reports Process]]
 **** [[http://www.defmacro.org/ramblings/lisp-in-haskell.html][Writing A Lisp Interpreter In Haskell]]
 **** [[http://letoverlambda.com/][Let Over Lambda]]                                                :book:
 **** [[http://www.gigamonkeys.com/book/][Practical Common Lisp]]                                          :book:
-**** [[http://www.cliki.net/index][Common Lisp Wiki]]
 **** [[http://lists.warhead.org.uk/pipermail/iwe/2005-July/000130.html#][Why Lisp macros are cool, a Perl perspective]]
-**** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]
 **** [[http://www.defmacro.org/ramblings/lisp-ducati.html][Lisp - The Ducati of Programming Languages]]
 **** [[http://landoflisp.com/][Land of Lisp]]                                                      :book:
 **** [[http://paulgraham.com/onlisptext.html][On Lisp]]                                                        :book:
+**** [[http://scheme-reports.org/][Scheme Reports Process]]
+**** [[http://www.cliki.net/index][Common Lisp Wiki]]
+**** [[http://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm][Common Lisp HyperSpec]]
+**** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]
 ** Haskell
 
 **** [[http://learnyouahaskell.com/chapters][Learn You a Haskell for Great Good!]]                            :book:
@@ -66,7 +67,7 @@
      whatever that is.»
 **** [[http://kunststube.net/encoding/][What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text]]
 **** [[http://blog.fogus.me/2011/09/08/10-technical-papers-every-programmer-should-read-at-least-twice/][10 Technical Papers Every Programmer Should Read (At Least Twice)]]
-
+**** [[http://norvig.com/21-days.html][Teach Yourself Programming in Ten Years]]
 
 * Math
 
