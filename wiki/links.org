@@ -30,6 +30,8 @@
 **** [[http://landoflisp.com/][Land of Lisp]]                                                      :book:
 **** [[http://paulgraham.com/onlisptext.html][On Lisp]]                                                        :book:
 **** [[http://scheme-reports.org/][Scheme Reports Process]]
+**** [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
+**** [[https://www.quicklisp.org/beta/][Quicklisp]]
 **** [[http://www.cliki.net/index][Common Lisp Wiki]]
 **** [[http://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm][Common Lisp HyperSpec]]
 **** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]

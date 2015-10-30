@@ -117,3 +117,12 @@ Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
 #+BEGIN_SRC emacs-lisp
 (setq dired-dwim-target t) 
 #+END_SRC
+
+** SLIME
+
+*** Key bindings
+| Key sequence  | Command         | Elisp function |
+| =C-M-i=       | Complete symbol |                |
+| =<Leader> !p= | Change package  |                |
+
+=<Leader>= is comma =(,)=.
