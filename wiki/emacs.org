@@ -21,38 +21,41 @@
 
 ** Keys and commands 
 *** General
-| Key sequence  | Command                                                             | Elisp function |
-|---------------+---------------------------------------------------------------------+----------------|
-| =C-x r t=     | Rectagle: prefix                                                    |                |
-| =C-c C-x C-v= | Toggle inline image mode                                            |                |
-| =M-g M-g=     | Goto line…                                                          |                |
-| =C-u C-x C-e= | Eval and insert output at point                                     |                |
-| =M-0 C-k=     | Kill and yank backwards                                             |                |
-| =C-s C-w=     | Appends the rest of the word under the cursor to the search pattern |                |
+| *Key sequence* | *Command*                                                           | *Elisp function* |
+|----------------+---------------------------------------------------------------------+------------------|
+| =C-x r t=      | Rectagle: prefix                                                    |                  |
+| =C-c C-x C-v=  | Toggle inline image mode                                            |                  |
+| =M-g M-g=      | Goto line…                                                          |                  |
+| =C-u C-x C-e=  | Eval and insert output at point                                     |                  |
+| =M-0 C-k=      | Kill and yank backwards                                             |                  |
+| =C-s C-w=      | Appends the rest of the word under the cursor to the search pattern |                  |
 
 *** Dired
-| Key sequence | Command                      | Elip function |
-|--------------+------------------------------+---------------|
-| =+=          | Create directory             |               |
-| =m/u=        | Mark/Unmark for deletion     |               |
-| =C-c C-q=    | Edit mode                    |               |
-| =C-c C-c=    | (in edit mode) Apply changes |               |
-| =C-c C-k=    | (in edit mode) Cancel        |               |
+| *Key sequence* | *Command*                                                                                                        | *Elisp function* |
+|----------------+------------------------------------------------------------------------------------------------------------------+------------------|
+| =+=            | Create directory                                                                                                 |                  |
+| =m/u=          | Mark/Unmark for deletion                                                                                         |                  |
+| =C-c C-q=      | Edit mode                                                                                                        |                  |
+| =C-c C-c=      | (in edit mode) Apply changes                                                                                     |                  |
+| =C-c C-k=      | (in edit mode) Cancel                                                                                            |                  |
+| =#=            | Flag all auto-save files (files whose names start and end with ‘#’) for deletion                                 |                  |
+| =~=            | Flag all backup files (files whose names end with ‘~’) for deletion                                              |                  |
+| =% &=          | Flag for deletion all files with certain kinds of names which suggest you could easily create those files again. |                  |
 
 *** Org-mode
-| Key sequence | Command                                        | Elisp function                  |
-|--------------+------------------------------------------------+---------------------------------|
-| =C-c c=      | Capture                                        |                                 |
-| =C-c C-w=    | Refile                                         | =(org-refile)=                  |
-| =C-c C-t=    | Toggle state                                   |                                 |
-| =C-c C-d=    | Add deadline                                   |                                 |
-| =C-c /=      | Sparse tree                                    | =(org-sparse-tree)=             |
-| =C-c C-x b=  | Show the current subtree in an indirect buffer | =(org-tree-to-indirect-buffer)= |
+| *Key sequence* | *Command*                                      | *Elisp function*                |
+|----------------+------------------------------------------------+---------------------------------|
+| =C-c c=        | Capture                                        |                                 |
+| =C-c C-w=      | Refile                                         | =(org-refile)=                  |
+| =C-c C-t=      | Toggle state                                   |                                 |
+| =C-c C-d=      | Add deadline                                   |                                 |
+| =C-c /=        | Sparse tree                                    | =(org-sparse-tree)=             |
+| =C-c C-x b=    | Show the current subtree in an indirect buffer | =(org-tree-to-indirect-buffer)= |
 
 *** Markdown mode
-| Key sequence | Command           | Elisp function                 |
-| =C-c C-s b=  | Insert blockquote | =(markdown-insert-blockquote)= |
-| =C-c C-c p=  | Preview           |                                |
+| *Key sequence* | *Command*         | *Elisp function*               |
+| =C-c C-s b=    | Insert blockquote | =(markdown-insert-blockquote)= |
+| =C-c C-c p=    | Preview           |                                |
 
 ** Code snippets
 *** General
@@ -120,9 +123,12 @@ Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
 
 ** SLIME
 
+[[http://pchristensen.com/wp-content/uploads/2008/02/slimecommands.pdf][Slime cheat sheet]]
+
 *** Key bindings
-| Key sequence  | Command         | Elisp function |
-| =C-M-i=       | Complete symbol |                |
-| =<Leader> !p= | Change package  |                |
+| *Key sequence* | *Command*                          | *Elisp function*   |
+| =C-M-i=        | Complete symbol                    |                    |
+| =C-M-x=        | Evaluate the current toplevel form | ~slime-eval-defun~ |
+| =<Leader> !p=  | Change package                     |                    |
 
 =<Leader>= is comma =(,)=.

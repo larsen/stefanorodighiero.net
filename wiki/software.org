@@ -82,6 +82,7 @@ from [[http://emacsformacosx.com/][emacsformacosx.com]].
   - [[http://magit.vc/][magit]]
   - [[http://emacswiki.org/emacs/Yasnippet][yasnippet]]
   - [[https://github.com/magnars/multiple-cursors.el][multiple cursors]]
+  - [[https://www.gnu.org/software/emacs/manual/html_mono/erc.html][ERC]] (now and then, see below)
 
 ** Vim
 Before switching to Emacs I was a heavy Vim users. I still appreciate

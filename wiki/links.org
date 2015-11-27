@@ -28,6 +28,7 @@
 **** [[http://lists.warhead.org.uk/pipermail/iwe/2005-July/000130.html#][Why Lisp macros are cool, a Perl perspective]]
 **** [[http://www.defmacro.org/ramblings/lisp-ducati.html][Lisp - The Ducati of Programming Languages]]
 **** [[http://landoflisp.com/][Land of Lisp]]                                                      :book:
+**** [[http://www.cs.cmu.edu/~dst/LispBook/][Common Lisp: A gentle intruduction to Symbolic Computation]]     :book:
 **** [[http://paulgraham.com/onlisptext.html][On Lisp]]                                                        :book:
 **** [[http://scheme-reports.org/][Scheme Reports Process]]
 **** [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
