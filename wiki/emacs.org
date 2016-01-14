@@ -57,6 +57,12 @@
 | =C-c C-s b=    | Insert blockquote | =(markdown-insert-blockquote)= |
 | =C-c C-c p=    | Preview           |                                |
 
+*** eww
+| *Key sequence* | *Command*             | *Elisp function*      |
+| =H=            | Show browsing history |                       |
+| =l=            |                       | =(eww-back-url)=      |
+| =w=            | Copy current page URL | =(eww-copy-page-url)= |
+
 ** Code snippets
 *** General
 
@@ -132,3 +138,5 @@ Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
 | =<Leader> !p=  | Change package                     |                    |
 
 =<Leader>= is comma =(,)=.
+
+** Gnus

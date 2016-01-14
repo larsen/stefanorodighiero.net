@@ -87,6 +87,7 @@
 **** [[http://science.raphael.poss.name/categories-from-scratch.html][Categories from scratch]]
 **** [[http://www.t3x.org/reload/index.html][Practical Compiler Construction]]
 **** [[http://en.wikipedia.org/wiki/Secretary_problem][Secretary Problem]]                                         :wikipedia:
+**** [[https://complexityzoo.uwaterloo.ca/Complexity_Zoo][Complexity Zoo]]
 ** Recreative Math
 
 **** [[http://jeffe.cs.illinois.edu/mathgames.html][Mathematical Games, Toys, and Puzzles]]

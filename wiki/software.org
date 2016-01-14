@@ -83,6 +83,7 @@ from [[http://emacsformacosx.com/][emacsformacosx.com]].
   - [[http://emacswiki.org/emacs/Yasnippet][yasnippet]]
   - [[https://github.com/magnars/multiple-cursors.el][multiple cursors]]
   - [[https://www.gnu.org/software/emacs/manual/html_mono/erc.html][ERC]] (now and then, see below)
+  - [[https://github.com/skeeto/elfeed][elfeed]]
 
 ** Vim
 Before switching to Emacs I was a heavy Vim users. I still appreciate
@@ -108,20 +109,9 @@ I use github for work and [[https://github.com/larsen][for some public projects]
 projects is also in a remote repository on one of my servers. I use
 git-web to browse them.
 
-** [[https://www.iterm2.com/][iTerm2]]                                                              :mac:
-I am one of those guys that practically live in a shell. After a long
-time spent in Terminal.app I found this. It has many additional
-features that make life simpler or even nicer (badges, shell integration, …).
-
 ** [[https://www.rstudio.com/][RStudio]]
 I occasionally use R (in the integrated environment RStudio), mostly
 to produce graphics using ggplot2.
-
-** Apple Keynote                                                        :mac:
-I occasionally give presentations. I was very fond of [[http://member.wide.ad.jp/wg/mgp/][MagicPoint]] back
-when I was using Linux, but when I switched to Mac OS X I didn't think
-the X11 dependancy was convenient. Keynote takes a totally different
-approach but is good enough.
 
 ** Excel
 I love spreadsheets, in general. Or "spreadsheet computing", as I'm
@@ -145,12 +135,6 @@ guess the benefits aren't worth the time.
 
 ** Midnight Commander
 
-** Slate                                                               :mac:
-I'd love to use a tiling window manager (i3 or xmonad, probably), but
-I'm on a Mac so the best I could find is this utility.
-
-** TunnelBlick                                                         :mac:
-
 * Dismissed
 
 ** Nisus Writer                                                        :mac:
@@ -163,6 +147,21 @@ largest writing project so far: [[http://stefanorodighiero.net/pocketperl/][Pock
 ** Quicksilver                                                         :mac:
 
 ** Spectacle                                                           :mac:
+
+** [[https://www.iterm2.com/][iTerm2]]                                                               :mac:
+ I am one of those guys that practically live in a shell. After a long
+ time spent in Terminal.app I found this. It has many additional
+ features that make life simpler or even nicer (badges, shell integration, …).
+
+** Apple Keynote                                                        :mac:
+ I occasionally give presentations. I was very fond of [[http://member.wide.ad.jp/wg/mgp/][MagicPoint]] back
+ when I was using Linux, but when I switched to Mac OS X I didn't think
+ the X11 dependancy was convenient. Keynote takes a totally different
+ approach but is good enough.
+** Slate                                                                :mac:
+ I'd love to use a tiling window manager (i3 or xmonad, probably), but
+ I'm on a Mac so the best I could find is this utility.
+** TunnelBlick                                                          :mac:
 
 * Footnotes
 
