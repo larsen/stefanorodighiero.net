@@ -41,6 +41,7 @@
 **** [[http://learnyouahaskell.com/chapters][Learn You a Haskell for Great Good!]]                            :book:
 **** [[http://book.realworldhaskell.org/][Real World Haskell]]                                             :book:
 **** [[http://aosabook.org/en/ghc.html][The Glasgow Haskell Compiler]]                                   :book:
+**** [[https://wiki.haskell.org/Haskell][The Haskell Wiki]]
 **** [[https://wiki.haskell.org/Typeclassopedia][Typeclassopedia]]
 **** [[http://projects.haskell.org/diagrams/doc/manual.html][Diagrams User Manual]]
 **** [[http://www.reddit.com/r/haskell/comments/2blsqa/papers_every_haskeller_should_read/][Papers every Haskeller should read]]                           :reddit:
@@ -51,6 +52,7 @@
 **** [[https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions][Basic Syntax Extensions]]
 **** [[http://research.microsoft.com/en-us/um/people/simonpj/papers/slpj-book-1987/start.htm][The Implementation of Functional Programming Languages]]
 **** [[http://www.stephendiehl.com/posts/essential_compilers.html][A Haskell implementation reading list]]
+**** [[http://haskell-ita.it/][Italian Haskell User group]]
 ** Assembler
 
 **** [[http://www.cs.virginia.edu/~evans/cs216/guides/x86.html][x86 Assembly Guide]]
@@ -92,6 +94,8 @@
 
 **** [[http://jeffe.cs.illinois.edu/mathgames.html][Mathematical Games, Toys, and Puzzles]]
 **** [[http://cut-the-knot.org/][Interactive Mathematics Miscellany and Puzzles]]
+** Logic
+*** [[http://plato.stanford.edu/entries/logic-modal/][Modal Logic]]
 ** Geometry
 
 **** [[http://www.ics.uci.edu/~eppstein/junkyard/][The Geometry Junkyard]]
@@ -140,6 +144,7 @@
 
 **** [[http://danzig.jct.ac.il/unix_class/emacs-vi-Commands.html][Equivalence of VIM and Emacs commands]]
 **** [[http://jblevins.org/projects/markdown-mode/][Emacs Markdown mode]]
+**** [[http://thread.gmane.org/gmane.emacs.devel][emacs.devel archives]]
 **** org-mode
 
 ***** [[https://www.gnu.org/software/emacs/manual/html_node/org/index.html#SEC_Contents][Org Mode Manual]]

@@ -63,6 +63,10 @@
 | =l=            |                       | =(eww-back-url)=      |
 | =w=            | Copy current page URL | =(eww-copy-page-url)= |
 
+*** Helm
+| *Key sequence*  | *Command* | *Elisp function*    |
+| =C-x c C-x C-f= |           | =(helm-find-files)= |
+
 ** Code snippets
 *** General
 
