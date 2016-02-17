@@ -1,0 +1,147 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Problem Set 1
+#+DATE: <2016-02-13 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+EMAIL: larsen@larsen
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.0.90.2 (Org mode 8.3.3)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: /wiki/monad-challenges/ 
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+* Random number generation
+
+[[http://mightybyte.github.io/monad-challenges/pages/ex1-1.html][First exercise]] is simple. The text says to not try to do anything
+fancy. Well, I'm not sure what's the opposite of fancy, but it should
+be my forte. Here:
+
+#+BEGIN_SRC haskell
+
+fiveRands :: [Integer]
+fiveRands = [
+  fst $ rand $ mkSeed 1,
+  fst $ rand $ snd $ rand $ mkSeed 1,
+  fst $ rand $ snd $ rand $ snd $ rand $ mkSeed 1,
+  fst $ rand $ snd $ rand $ snd $ rand $ snd $ rand $ mkSeed 1,
+  fst $ rand $ snd $ rand $ snd $ rand $ snd $ rand $ snd $ rand $ mkSeed 1]
+
+#+END_SRC
+
+However, it's easy to spot a common pattern in the list of function
+compositions. Here a shorter, more general version.
+
+#+BEGIN_SRC haskell
+
+fiveRands' :: [Integer]
+fiveRands' = map fst $ take 5 $ iterate (rand . snd) $ rand $ mkSeed 1
+
+#+END_SRC
+
+I was initially surprised to see it working, since the first element
+on the array in the first defition is ~fst $ rand $ mkSeed 1~, that
+is, there's no occurrence of the composite function ~(rand
+. snd)~. But it all makes sense if you observe the definition of
+~iterate~.
+
+* Random character generation
+
+#+BEGIN_SRC haskell
+
+randLetter :: Seed -> (Char, Seed)
+randLetter seed = (toLetter $ fst r, snd r)
+  where r = rand seed
+
+randString3 :: String
+randString3 = map fst $ take 3 $ iterate (randLetter . snd) $ randLetter $ mkSeed 1
+
+#+END_SRC
+
+* More generators
+
+#+BEGIN_SRC haskell
+
+type Gen a = Seed -> (a, Seed)
+myRand :: Gen Integer
+myRand = rand
+
+myRandLetter :: Gen Char
+myRandLetter = randLetter
+
+generalA :: (a -> b) -> Gen a -> Gen b
+generalA f g seed = (f $ fst r, snd r)
+  where r = g seed
+
+randEven :: Gen Integer -- the output of rand * 2
+randEven = generalA (\x -> x * 2) myRand
+
+randOdd :: Gen Integer -- the output of rand * 2 + 1
+randOdd = generalA (\x -> x * 2 + 1) myRand
+
+randTen :: Gen Integer -- the output of rand * 10
+randTen = generalA (\x -> x * 10) myRand
+
+#+END_SRC
+
+* Generalizing random pairs
+
+#+BEGIN_SRC haskell
+
+randPair :: Gen (Char, Integer)
+randPair seed = ((fst l, fst n), snd n)
+  where l = randLetter seed
+        n = rand $ snd l
+
+generalPair :: Gen a -> Gen b -> Gen (a, b)
+-- generalPair :: (Seed -> (a, Seed)) -> (Seed -> (b, Seed)) -> Seed -> ((a,b), Seed)
+generalPair gena genb seed = ((a, b), seed'')
+  where ra     = gena seed
+        a      = fst ra
+        seed'  = snd ra
+        rb     = genb seed'
+        b      = fst rb
+        seed'' = snd rb
+
+randPair' = generalPair randLetter rand
+
+#+END_SRC
+
+* Generalizing lists of generators
+
+#+BEGIN_SRC haskell
+
+repRandom :: [Gen a] -> Gen [a]
+repRandom [] seed = ([], seed)  -- not sure about this equation
+repRandom (g:gs) seed = (a : fst (repRandom gs seed'), seed')
+  where ra = g seed
+        a = fst ra
+        seed' = snd ra
+
+#+END_SRC
+
+* Threading the random number state
+
+#+BEGIN_SRC haskell
+
+genTwo :: Gen a -> (a -> Gen b) -> Gen b
+genTwo gen f seed = f a seed
+  where ra    = gen seed
+        a     = fst ra
+        seed' = snd ra
+
+mkGen :: a -> Gen a
+-- mkGen :: a -> Seed -> (a, Seed)
+mkGen a seed = (a, seed)
+
+#+END_SRC

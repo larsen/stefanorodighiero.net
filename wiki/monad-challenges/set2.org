@@ -1,0 +1,29 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Problem Set 2
+#+DATE: <2016-02-13 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+EMAIL: larsen@larsen
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.0.90.2 (Org mode 8.3.3)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/monad-challenges/
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+* The Maybe type
+* Build a library of things that can fail
+* Chains of failing computations
+* Generalizing chains of failures
+* Chaining variations
+* Tailprod

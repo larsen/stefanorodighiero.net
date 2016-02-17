@@ -19,3 +19,5 @@
 * [[file:emacs.org][Emacs]]
 * [[file:links.org][Links]]
 * [[file:software.org][Software]]
+* Programming
+** [[file:monad-challenges/index.org][Monad Challenges]]

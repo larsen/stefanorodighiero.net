@@ -1,0 +1,39 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Monad Challenges
+#+DATE: <2016-02-13 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+EMAIL: larsen@larsen
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.0.90.2 (Org mode 8.3.3)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+Here are my solutions, together with some notes and commentary. Some
+times I got stuck and I had to ask more expert Haskell users: their
+help was not only useful to solve the problem at hand, but it gave me
+a deeper understanding of what was going on, or a different point of
+view on the subject or a different solution. I hope I'm able to
+faithfully render their invaluable insight.
+
+* [[file:set1.org][Set one]] - Random numbers
+
+* [[file:set2.org][Set two]] - Failing computations
+
+* Set three - Combinations
+
+* Set four - Common Abstraction
+
+* Set five - Do notation
