@@ -109,7 +109,7 @@ main = do
     create ["sitemap.xml"] $ do
         route idRoute
         compile $ do
-            posts <- loadAll (("pocketperl/**" .||. "posts/*" ) .&&. hasNoVersion)
+            posts <- loadAll (("pocketperl/**" .||. "posts/*" .||. "projects/**") .&&. hasNoVersion)
             itemTpl <- loadBody "templates/sitemap-item.xml"
             list <- applyTemplateList itemTpl (sitemapCtx myFeedConfiguration) posts
             makeItem list
