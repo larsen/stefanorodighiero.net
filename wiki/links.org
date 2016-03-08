@@ -94,6 +94,7 @@
 
 **** [[http://jeffe.cs.illinois.edu/mathgames.html][Mathematical Games, Toys, and Puzzles]]
 **** [[http://cut-the-knot.org/][Interactive Mathematics Miscellany and Puzzles]]
+**** [[http://mathigon.org/mathigon_org/origami/][Mathematical Origami]]
 ** Logic
 *** [[http://plato.stanford.edu/entries/logic-modal/][Modal Logic]]
 ** Geometry
@@ -169,7 +170,7 @@
 
 ** [[http://okmij.org/ftp/][Oleg Kiselyov]]
 ** [[http://conal.net/][Conal Elliott]]
-
+** [[http://www.gregegan.net][Greg Egan]]
 ** Academia
 
 *** Computer Science
