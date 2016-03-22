@@ -95,6 +95,7 @@
 **** [[http://jeffe.cs.illinois.edu/mathgames.html][Mathematical Games, Toys, and Puzzles]]
 **** [[http://cut-the-knot.org/][Interactive Mathematics Miscellany and Puzzles]]
 **** [[http://mathigon.org/mathigon_org/origami/][Mathematical Origami]]
+**** [[http://www.conwaylife.com/wiki/Main_Page][Conway's Life Wiki]]
 ** Logic
 *** [[http://plato.stanford.edu/entries/logic-modal/][Modal Logic]]
 ** Geometry
