@@ -31,6 +31,7 @@
 **** [[http://www.cs.cmu.edu/~dst/LispBook/][Common Lisp: A gentle intruduction to Symbolic Computation]]     :book:
 **** [[http://paulgraham.com/onlisptext.html][On Lisp]]                                                        :book:
 **** [[http://scheme-reports.org/][Scheme Reports Process]]
+**** [[http://library.readscheme.org/index.html][Bibliography of Scheme-related Research]]
 **** [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
 **** [[https://www.quicklisp.org/beta/][Quicklisp]]
 **** [[http://www.cliki.net/index][Common Lisp Wiki]]

@@ -76,6 +76,18 @@ Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-
 (when (eq system-type 'darwin)
   (setq mac-right-option-modifier 'none))
 #+END_SRC
+
+**** Generic function to get JSON data from a URI
+
+#+BEGIN_SRC emacs-lisp
+(require 'json)
+(defun get-json-data (url)
+  (with-current-buffer
+      (url-retrieve-synchronously url)
+    (goto-char (+ 1 url-http-end-of-headers))
+    (json-read-object)))
+#+END_SRC
+
 *** Helm
 
 An example of a custom-made Helm menu based on current buffer contents

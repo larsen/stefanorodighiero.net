@@ -2,10 +2,10 @@
 #+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
 #+OPTIONS: email:nil f:t inline:t num:nil p:nil pri:nil prop:nil stat:t
 #+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
-#+TITLE: Monad Challenges
-#+DATE: <2016-02-13 Sat>
+#+TITLE: Geometry
+#+DATE: <2016-04-05 Sat>
 #+AUTHOR: Stefano Rodighiero
-#+EMAIL: larsen@larsen
+#+EMAIL: stefano.rodighiero@gmail.com
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
@@ -21,19 +21,6 @@
 #+LATEX_HEADER:
 #+SETUPFILE: ~/org/notes-style.org
 
-Here are my solutions, together with some notes and commentary. Some
-times I got stuck and I had to ask more expert Haskell users: their
-help was not only useful to solve the problem at hand, but it gave me
-a deeper understanding of what was going on, or a different point of
-view on the subject or a different solution. I hope I'm able to
-faithfully render their invaluable insight.
+* [[https://github.com/larsen/geometry/tree/master/heptadecagon][Heptadecagon]]
 
-* [[file:set1.org][Set one]] - Random numbers
-
-* [[file:set2.org][Set two]] - Failing computations
-
-* Set three - Combinations
-
-* Set four - Common Abstraction
-
-* Set five - Do notation
+https://github.com/larsen/geometry/raw/master/heptadecagon/heptadecagon.png
