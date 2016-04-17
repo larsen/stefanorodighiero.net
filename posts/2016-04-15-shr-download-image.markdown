@@ -74,7 +74,7 @@ version of the function:
     (if (not url)
         (message "No image under point!")
       (url-copy-file url (expand-file-name (url-file-nondirectory url)
-                                 "~/Pictures/elfeed/")))))
+                                           "~/Pictures/elfeed/")))))
 ~~~~
 
 * `url-file-nondirectory` is a simpler and more succinct than my
