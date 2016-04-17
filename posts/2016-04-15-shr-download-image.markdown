@@ -60,3 +60,25 @@ A couple of things going on here that require an explanation:
 ~~~~ {.commonlisp}
 (define-key elfeed-show-mode-map "D" #'shr-download-image)
 ~~~~
+
+### Edit
+
+Thanks to machi suggestions in the comments, here a shorter, better
+version of the function:
+
+~~~~ {.commonlisp}
+(defun shr-download-image ()
+  "Downloads the image under point"
+  (interactive)
+  (let ((url (get-text-property (point) 'image-url)))
+    (if (not url)
+        (message "No image under point!")
+      (url-copy-file url (expand-file-name (url-file-nondirectory url)
+                                 "~/Pictures/elfeed/")))))
+~~~~
+
+* `url-file-nondirectory` is a simpler and more succinct than my
+  composition of parse + `url-filename` + f-filenam
+  
+* `expand-file-name` is more expressive (and I think more robust) than
+  `concat`
