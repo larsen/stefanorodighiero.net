@@ -3,7 +3,7 @@
 #+AUTHOR: Stefano Rodighiero
 #+EMAIL: larsen@ip-192-168-1-94.ec2.internal
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
-#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html-scripts:t html-style:t
 #+OPTIONS: html5-fancy:nil tex:t toc:2 num:0
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6)
 #+HTML_CONTAINER: div
@@ -37,6 +37,13 @@
 **** [[http://www.cliki.net/index][Common Lisp Wiki]]
 **** [[http://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm][Common Lisp HyperSpec]]
 **** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]
+**** [[http://lispdoc.com/][Lisp Documentation]] 
+     A searchable engine, with content from Practical Common Lisp
+     (PCL), Successful Lisp, On Lisp, CLtL2, the HyperSpec, and the
+     docstrings of SBCL. Example code is from PCL, PAIP, ANSI Common
+     Lisp, and a bunch of ASDF-installable libraries.
+
+
 ** Haskell
 
 **** [[http://learnyouahaskell.com/chapters][Learn You a Haskell for Great Good!]]                            :book:
@@ -107,12 +114,15 @@
 
 **** [[http://www.stephenwolfram.com/publications/mathematical-notation-past-future/][Mathematical Notation: Past and Future ]]
 **** [[http://oeis.org/][The On-Line Encyclopedia of Integer Sequences]]
+**** [[https://proofwiki.org/wiki/Main_Page][Proof Wiki]]
 **** [[http://mathworld.wolfram.com/][MathWorld]]
 * Books
 
 *** [[http://www-users.cs.york.ac.uk/~susan/books/pages/index.htm][Susan Stepney's books reviews]]
 *** [[https://www.librarything.com/][Library Thing]]
-*** [[http://www.isfdb.org/][Internet Speculative Fiction Database]]
+*** Science Fiction
+**** [[http://www.isfdb.org/][Internet Speculative Fiction Database]]
+**** [[https://www.worldswithoutend.com/][Worlds Without End]]
 *** Ebooks
 
 **** [[http://patshaughnessy.net/2012/11/27/my-ebook-build-process-and-some-pdf-epub-and-mobi-tips][My eBook build process and some PDF, EPUB and MOBI tips]]
