@@ -1,0 +1,31 @@
+#+TITLE: Books
+#+DATE: <2016-04-18 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+Here I collect notes about books I consider important or particularly
+well-done. This section has to be considered in progress: I add notes
+as long as I proceed reading, or as I proceed re-organizing previously
+collected notes.
+
+* [[file:the-annotated-turing.org][The Annotated Turing]]
+
+* [[file:the-computer-boys-take-over.org][The Computer Boys Take Over]]
+
+* [[file:mindstorms.org][Mindstorms]]

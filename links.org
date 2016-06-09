@@ -1,4 +1,4 @@
-#+TITLE: Links
+]#+TITLE: Links
 #+DATE: <2015-06-02 Tue>
 #+AUTHOR: Stefano Rodighiero
 #+EMAIL: larsen@ip-192-168-1-94.ec2.internal
@@ -180,6 +180,7 @@
 **** [[http://www.bigmessowires.com/2014/11/17/68-katy-68000-linux-on-a-solderless-breadboard/][68 Katy – 68000 Linux on a Solderless Breadboard]]
 * People
 
+** [[http://wry.me/~darius/][Darius Bacon]]
 ** [[http://okmij.org/ftp/][Oleg Kiselyov]]
 ** [[http://conal.net/][Conal Elliott]]
 ** [[http://www.gregegan.net][Greg Egan]]

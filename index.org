@@ -1,0 +1,45 @@
+#+TITLE: Stefano Rodighiero's Homepage
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t num:nil toc:nil
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+* Software
+- [[file:software/wiz.org][Wiz]] is a Scheme implementation written in Haskell. /Work in progress/
+- [[file:software/hledger-dupes.org][hledger-dupes]] is a simple utility to find duplicate accounts in
+  Hledger journal
+- [[file:software/moew.org][moew]] a simple webservice written in Emacs Lisp
+
+* Projects
+- [[http://bookflocks.com][Bookflocks]] is a website where I publish (on a weekly basis, or at
+  least I try) interviews about books. Backgrounds and occupations of
+  those whom I have interviewed vary a lot.
+  - A couple of friends asked me how I made Bookflocks. In the spirit
+    of caching what's requested more often, I wrote [[file:bookflocks.org][some notes]].
+
+* Writings
+- [[file:writings/composing-multiple-mojolicious-apps-with-plack.org][Composing multiple Mojolicious apps with Plack]]
+- [[file:writings/making-slides-for-technical-prsentations.org][Writing slides for technical presentations]]
+
+* [[file:books/index.org][Books]]
+
+* [[file:links.org][Links]]
+
+* About me
+** [[file:personal.org][Personal infos]]
+** [[file:software.org][Software I use]]
+
+* Meta

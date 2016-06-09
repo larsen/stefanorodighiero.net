@@ -1,0 +1,34 @@
+#+TITLE: The Annotated Turing
+#+DATE: <2016-04-18 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t num:nil toc:1
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/books/
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
+#+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style.org
+
+
+file:./../images/books/the-annotated-turing.jpg
+
+* Chapter 2 - The Irrational and the Trascendental
+
+*Question*
+
+On page 31, Petzold begins talking about the Continuum Hypothesis.
+
+\[
+\aleph_1 = 2^{\aleph_0}
+\]
