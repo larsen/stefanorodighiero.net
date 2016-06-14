@@ -10,7 +10,7 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 25.0.92.2 (Org mode 8.3.4)
-#+SETUPFILE: ~/org/notes-style.org
+#+SETUPFILE: ~/org/notes-style2.org
 
 * Requirements
 

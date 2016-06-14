@@ -1,4 +1,4 @@
-]#+TITLE: Links
+#+TITLE: Links
 #+DATE: <2015-06-02 Tue>
 #+AUTHOR: Stefano Rodighiero
 #+EMAIL: larsen@ip-192-168-1-94.ec2.internal
@@ -15,7 +15,7 @@
 #+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #+INFOJS_OPT:
 #+LATEX_HEADER:
-#+SETUPFILE: ~/org/notes-style.org
+#+SETUPFILE: ~/org/notes-style2.org
 
 * Programming
 

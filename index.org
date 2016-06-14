@@ -15,13 +15,14 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
 #+LATEX_HEADER:
-#+SETUPFILE: ~/org/notes-style.org
+#+SETUPFILE: ~/org/notes-style2.org
 
 * Software
 - [[file:software/wiz.org][Wiz]] is a Scheme implementation written in Haskell. /Work in progress/
 - [[file:software/hledger-dupes.org][hledger-dupes]] is a simple utility to find duplicate accounts in
   Hledger journal
 - [[file:software/moew.org][moew]] a simple webservice written in Emacs Lisp
+- [[file:software/monad-challenges/index.org][monad challenges]] solutions
 
 * Projects
 - [[http://bookflocks.com][Bookflocks]] is a website where I publish (on a weekly basis, or at
@@ -31,6 +32,8 @@
     of caching what's requested more often, I wrote [[file:bookflocks.org][some notes]].
 
 * Writings
+- [[file:pocketperl/index.org][Pocket Perl]], an introduction to Perl programming. Published by
+  Apogeo in 2008.
 - [[file:writings/composing-multiple-mojolicious-apps-with-plack.org][Composing multiple Mojolicious apps with Plack]]
 - [[file:writings/making-slides-for-technical-prsentations.org][Writing slides for technical presentations]]
 

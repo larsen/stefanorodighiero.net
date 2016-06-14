@@ -22,7 +22,49 @@
 #+SETUPFILE: ~/org/notes-style.org
 
 * The Maybe type
+
+#+BEGIN_SRC haskell
+
+data Maybe a = Just a | Nothing
+
+instance Show a => Show (Maybe a) where
+  show (Just a) = "Just " ++ show a
+  show Nothing  = "Nothing"
+
+#+END_SRC
+
 * Build a library of things that can fail
+
+#+BEGIN_SRC haskell
+
+headMay :: [a] -> Maybe a
+headMay [] = Nothing
+headMay (h:_) = Just h
+
+tailMay :: [a] -> Maybe [a]
+tailMay [] = Nothing
+tailMay (_:t) = Just t
+
+lookupMay :: Eq a => a -> [(a, b)] -> Maybe b
+lookupMay item [] = Nothing
+lookupMay item ((k,v):ks)
+  | item == k = Just v
+  | otherwise = lookupMay item ks
+
+divMay :: (Eq a, Fractional a) => a -> a -> Maybe a
+divMay _ 0 = Nothing
+divMay n d = Just (n / d)
+
+maximumMay :: Ord a => [a] -> Maybe a
+maximumMay [] = Nothing
+maximumMay l  = Just (maximum l)
+
+minimumMay :: Ord a => [a] -> Maybe a
+minimumMay [] = Nothing
+minimumMay l  = Just (minimum l)
+
+#+END_SRC
+
 * Chains of failing computations
 * Generalizing chains of failures
 * Chaining variations
