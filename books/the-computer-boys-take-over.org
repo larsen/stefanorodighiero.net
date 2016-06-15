@@ -1,0 +1,74 @@
+#+TITLE: The Computer Boys Take Over
+#+DATE: <2016-04-18 Sat>
+#+AUTHOR: Stefano Rodighiero
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t num:nil toc:1
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME: http://stefanorodighiero.net/
+#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/books/
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style2.org
+
+
+file:./../images/books/the-computer-boys-take-over.jpg
+
+* 1. Introduction: Computer Revolutionaries
+
+*** Among  the history of computing, histories of hw and sw can be treated as separate things
+
+**** Hardware history is characterized by "regular and remarkable progress"
+
+**** While for software "tension, conflict, failure, ..." is constant
+
+**** There's is no Moore's Law for software technology
+
+**** But the problem was not always (or not only) that software did not work, but that it had undesiderable effects for the organizations using it
+
+*** With software computer became _tools to manage_, instead of _tools to be managed_
+
+**** Computer specialists are "agents of change"
+
+*** History of computer programming
+
+**** or, more aptly, history of humans building software
+
+**** "that this work would turn out to be difficult and require radically innovative thinking was completely unanticipated"
+
+**** coding was considered a low, "static" occupation; something that could be done by low-level worker
+
+***** mechanical translation
+
+***** rote transcription
+
+**** Maurice Wilkes: "And it was with somewhat of a shock that I realized that for the rest of my life I was going to spend a good deal of my time finding mistakes that I had made in my programs"
+
+* 2. The Black Art of Programming
+
+#+tblname: chap2-computers-in-use-per-year
+| Year | Computers in use |
+|------+------------------|
+| 1950 |                2 |
+| 1955 |              240 |
+| 1960 |             5400 |
+| 1965 |            25000 |
+| 1970 |            75000 |
+
+#+BEGIN_SRC gnuplot :exports results :var data=chap2-computers-in-use-per-year :file chap2-1.png :results graphics
+reset
+set title "Computers in use per year"
+plot data u 1:2 with lines
+#+END_SRC
+
+#+RESULTS:
+[[file:chap2-1.png]]
+

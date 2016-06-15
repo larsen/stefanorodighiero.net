@@ -17,7 +17,7 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
 #+LATEX_HEADER:
-#+SETUPFILE: ~/org/notes-style.org
+#+SETUPFILE: ~/org/notes-style2.org
 
 Here I collect notes about books I consider important or particularly
 well-done. This section has to be considered in progress: I add notes

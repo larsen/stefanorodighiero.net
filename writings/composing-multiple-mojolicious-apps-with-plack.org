@@ -16,6 +16,8 @@
 #+LATEX_HEADER:
 #+SETUPFILE: ~/org/notes-style2.org
 
+/originally published in March 2014/
+
 At work, we've built a number of internal web applications to perform
 various tasks: data entry, analytics, reporting, and so on.
 
