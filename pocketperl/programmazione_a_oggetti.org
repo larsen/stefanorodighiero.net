@@ -1,0 +1,12 @@
+** Approfondimenti
+
+-  [[http://broadcast.oreilly.com/2008/11/beginners-introduction-to-obje.html][Beginners
+   Introduction to Object-Oriented Programming with Perl]] by
+   [[http://www.oreillynet.com/pub/au/176][chromatic]]
+-  [[http://www.perl.it/blog/archives/000641.html][Breve introduzione a
+   Moose]], pubblicato su [[http://www.perl.it/][Perl.it]]. Traduzione
+   di
+   [[http://www.catalyzed.org/2009/06/a-gentle-introduction-to-moose.html][A
+   gentle introduction to Moose]], di Jay Kuri.
+
+** Errata corrige

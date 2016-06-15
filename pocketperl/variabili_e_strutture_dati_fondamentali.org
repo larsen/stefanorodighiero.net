@@ -1,0 +1,22 @@
+** Approfondimenti
+
+** Errata corrige
+
+**** Pag. 14
+
+/"le w di tipo scalare"/ dovrebbe essere /"le variabili di tipo
+scalare"/
+
+**** Pag. 16
+
+l'ultimo esempio:
+
+#+BEGIN_EXAMPLE
+    qq{Nel mezzo del cammin di nostra vita\n mi ritrovai...}
+#+END_EXAMPLE
+
+dovrebbe essere:
+
+#+BEGIN_EXAMPLE
+    qq{Nel mezzo del cammin di nostra vita\n mi ritrovai...}
+#+END_EXAMPLE

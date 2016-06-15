@@ -1,0 +1,30 @@
+** Approfondimenti
+
+**** Bibliografia
+
+Uno dei testi citati nella bibliografia e nei riferimenti del Capitolo 4
+[[/pocketperl/strutture_complesse_e_subroutine.html][(Strutture
+complesse e subroutine)]], Higher-Order Perl, é liberamente
+[[http://hop.perl.plover.com/book/][disponibile per il download]].
+
+**** CPAN
+
+[[http://blog.urth.org/2008/12/the-many-axes-of-software-development.html][The
+Many Axes of Software Development]] /People want many things from
+software, and those desires are often contradictory. There's a constant
+back and forth about what people want from CPAN modules, in particular.
+It seems like we have the same arguments year after year. I think
+talking about priorities before talking about why something is good or
+bad is crucial./
+
+**** Community
+
+[[http://www.pm.org/][Perl Mongers]] /is a loose association of
+international Perl User Groups. Posti dove continuare ad imparare/
+
+[[http://www.perlmonks.org/][Perlmonks]] Forum in Inglese, con
+tantissimi utenti: un buon posto dove porre domande e risolvere i propri
+dubbi (ma prima cercate nel ricchissimo database di thread gia` in
+corso).
+
+** Errata corrige

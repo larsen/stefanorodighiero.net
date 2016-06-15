@@ -1,0 +1,78 @@
+#+TITLE: Pocket Perl
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
+#+LATEX_HEADER:
+#+SETUPFILE: ~/org/notes-style2.org
+
+[[/images/pocketperl/cover.jpg]]
+** Indice
+
+Ciascuna delle pagine riporta errata corrige e puntatori ad
+approfondimenti sul tema.
+
+-  [[/pocketperl/introduzione.html][Introduzione]]\\
+-  [[/pocketperl/scoprire_perl.html][Scoprire perl]]\\
+-  [[/pocketperl/variabili_e_strutture_dati_fondamentali.html][Variabili e strutture dati fondamentali]]\\
+-  [[/pocketperl/sintassi_e_strutture_di_controllo.html][La sintassi e le strutture di controllo]]\\
+-  [[/pocketperl/strutture_complesse_e_subroutine.html][Strutture complesse e subroutine]]\\
+-  [[/pocketperl/package_e_moduli.html][Package e moduli]]\\
+-  [[/pocketperl/programmazione_a_oggetti.html][Programmazione a oggetti]]\\
+-  [[/pocketperl/espressioni_regolari.html][Le espressioni regolari]]\\
+-  [[/pocketperl/perl_e_mondo_esterno.html][Perl e il mondo esterno]]\\
+-  [[/pocketperl/appendice.html][Appendice - approfondimenti]]
+
+Parti del libro sono disponibili su google books
+
+** Recensioni
+
+-  [[http://greenokapi.net/blog/2008/12/03/pocket-perl-introduction-in-italian-short-review/][Pocket
+   Perl (introduction in Italian): short review]], di osfameron
+-  [[http://www.nuovascicli.it/index.php?option=com_content&view=article&id=2405:pocket-perl-di-stefano-rodighiero&catid=6:libri&Itemid=43][Pocket
+   Perl, di Stefano Rodighiero]], di Salvo Micciché (la recensione di
+   Salvo è stata pubblicata anche su
+   [[http://www.applicando.com/01NET/HP/0,1254,36_ART_97470,00.html?lw=36;4][Applicando
+   di Aprile]], e su
+   [[http://www.perl.it/documenti/bibliografia/41.html#2][Perl.it]])
+-  [[http://programmazione.it/index.php?entity=eitem&idItem=41351][Perl
+   Pocket]], di Alessandro Carichini
+-  [[http://www.cattlegrid.info/blog/2009/05/pocket-perl.html][Pocket
+   Perl]], di Michele Beltrame
+-  [[http://www.perl.it/documenti/bibliografia/41.html][Recensione
+   pubblicata su Perl.it]], di Flavio Poletti
+-  Pocket Perl è stato segnalato sul
+   [[http://www.pcprofessionale.it/sommario-032009/][fascicolo di Marzo
+   2009 di PC Professionale]]
+
+Il libro si può acquistare online:
+
+-  [[http://www.apogeonline.com/libri/9788850327782/scheda][Apogeo]]
+-  [[http://www.lafeltrinelli.it/products/9788850327782.html][laFeltrinelli]]
+-  [[http://www.ibs.it/code/9788850327782/rodighiero-stefano/perl.html][IBS]]
+
+** [[https://groups.google.com/forum/#!forum/pocketperl][Mailing list]]
+
+** Link utili
+
+-  [[http://www.perl.org/books/beginning-perl/][Beginning Perl]] di
+   Simon Cozens è completamente disponibile online
+-  [[http://www.perl.it/][Perl.it]] portale italiano dedicato al Perl
+-  [[http://pod2it.sourceforge.net/][Pod2it]] traduzione in Italiano
+   della documentazione compresa nella distribuzione Perl
+-  [[http://www.perl.it/documenti/bibliografia/index.html][Bibliografia]]
+   Recensioni in Italiano dei principali libri dedicati al Perl
+-  [[http://learnperl.scratchcomputing.com/][Learn Perl]] Una serie di
+   tutorial dedicati a vari temi, realizzati da Eric Wilhelm grazie al
+   contributo della [[http://www.perlfoundation.org/][Perl Foundation]]

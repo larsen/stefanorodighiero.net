@@ -1,0 +1,8 @@
+** Approfondimenti
+
+Sulle origini di Perl, e non solo, potete leggere questa intervista a
+Larry Wall:
+[[http://www.softpanorama.org/People/Wall/index.shtml][Slightly
+Skeptical View on Larry Wall and Perl]]
+
+** Errata corrige

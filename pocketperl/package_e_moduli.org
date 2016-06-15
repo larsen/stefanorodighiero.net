@@ -1,0 +1,20 @@
+** Approfondimenti
+
+[[http://www.perl.it/documenti/articoli/namespaces/index.html][Lo scopo
+dello scope]], versione in Italiano di
+[[http://perl.plover.com/FAQs/Namespaces.html][Coping with scoping]], di
+[[http://perl.plover.com/][Mark-Jason Dominus]]
+
+** Errata corrige
+
+*Pag. 107*
+
+Nel testo si fa riferimento alla variabile =@EXPORT_TAGS=. In realtà il
+nome corretto è =%EXPORT_TAGS= (si tratta quindi di un hash, non di un
+array). Il codice di esempio riportato diventa dunque:
+
+#+BEGIN_SRC perl
+    %EXPORT_TAGS = ( 
+      disney => [ qw{ pippo pluto paperino } ] 
+    );
+#+END_SRC
