@@ -1,15 +1,17 @@
 #!/bin/bash
 
+PROJECT_NAME="test-new-structure"
+
 function publish_pages {
     echo "Publishing pages..."
     emacs -batch -l ~/.emacs.d/init.el \
-          -eval '(org-publish "test-new-structure")'
+          -eval "(org-publish \"$PROJECT_NAME\")"
 }
 
 function publish_images {
     echo "Publishing images..."
     emacs -batch -l ~/.emacs.d/init.el \
-          -eval '(org-publish "test-new-structure-images")'
+          -eval "(org-publish \"${PROJECT_NAME}-images\")"
 }
 
 ALL=0
@@ -33,7 +35,7 @@ do
             shift
             ;;
         -f|--force)
-            rm ~/.org-timestamps/test-new-structure.cache
+            rm ~/.org-timestamps/$PROJECT_NAME.cache
             shift
             ;;
         *)
