@@ -1,6 +1,6 @@
+#+TITLE: My Org Elisp webservice
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
 #+OPTIONS: html-preamble:t html-scripts:t html-style:t
-#+OPTIONS: html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
@@ -16,9 +16,9 @@
 #+LATEX_HEADER:
 #+SETUPFILE: ~/org/notes-style2.org
 
-/originally published in September 2014/
-
 * org going mobile
+
+/originally published in September 2014/
 
 During the last months I spent a lot of time using Emacs, growing more
 and more fond of it. The main responsible for that is certainly

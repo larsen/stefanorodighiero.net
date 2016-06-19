@@ -17,7 +17,7 @@
 #+LATEX_HEADER:
 #+SETUPFILE: ~/org/notes-style2.org
 
-Here some facts about me:
+* Here some facts about me:
 
 - I was blessed by the opportunity of writing an [introductory book
   about Perl](/pocketperl/), published in Italy by Apogeo. I wrote
