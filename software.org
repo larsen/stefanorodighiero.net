@@ -73,9 +73,6 @@ from [[http://emacsformacosx.com/][emacsformacosx.com]].
 
 - [[https://github.com/larsen/emacs-configuration][My configuration]]. This repository is normally a couple of iterations
   behind what I actually use
-- [[http://stefanorodighiero.net/tags/emacs.html][Articles tagged /emacs/]]. I occasionally write about how I use Emacs,
-  when I think one particular application might be of interest for
-  other people.
 - Main packages I use:
   - [[http://orgmode.org/][org-mode]]
   - [[https://emacs-helm.github.io/helm/][helm]]
