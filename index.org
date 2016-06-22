@@ -1,13 +1,13 @@
 #+TITLE: Stefano Rodighiero's Homepage
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
-#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html-scripts:t html-style:t
 #+OPTIONS: html5-fancy:nil tex:t num:nil toc:nil
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
 #+KEYWORDS:
-#+HTML_LINK_HOME:
-#+HTML_LINK_UP:
+#+HTML_LINK_UP: /
+#+HTML_LINK_HOME: /
 #+HTML_MATHJAX:
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
@@ -15,7 +15,7 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.92.2 (<a href="http://orgmode.org">Org</a> mode 8.3.4)
 #+LATEX_HEADER:
-#+SETUPFILE: ~/org/notes-style2.org
+#+SETUPFILE: ~/org/notes-style.org
 
 * Software
 - [[file:software/wiz.org][Wiz]] is a Scheme implementation written in Haskell. /Work in progress/
@@ -25,6 +25,7 @@
 - [[file:software/monad-challenges/index.org][monad challenges]] solutions
 
 * Writings
+- I collect shorter and unstructured thoughts in a [[file:stream/index.org][stream]], updated almost daily.
 - [[file:writings/composing-multiple-mojolicious-apps-with-plack.org][Composing multiple Mojolicious apps with Plack]]
 - [[file:writings/making-slides-for-technical-prsentations.org][Writing slides for technical presentations]]
 
