@@ -56,7 +56,7 @@ The error in this case is particularly evident exploring the account
 tree with hledger-web. But if you have hundreds, as it's customary using
 hledger, such an error can slip easily.
 
-[[/images/hledger-web_register.png]]
+[[../images/hledger-web_register.png]]
 
 What I'd like to have is a tool that automatically spot duplicates in
 the account tree: duplicates are defined as account names having the

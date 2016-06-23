@@ -42,11 +42,8 @@ My implementation is still a work in progress but I guess the core won't
 be subject to radical changes, so here a quick review of its main parts.
 [[https://github.com/larsen/wiz][Code is available on github]].
 
-I'm following the design described in
-[[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start][Chapter
-4]] of [[https://mitpress.mit.edu/sicp/][Structure and Interpretation of
-Computer Programs]]: if you're familiar with the book I'm sure you won't
-find anything new.
+I'm following the design described in [[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start][Chapter 4]] of [[https://mitpress.mit.edu/sicp/][Structure and Interpretation of Computer Programs]]: if you're familiar with the book
+I'm sure you won't find anything new.
 
 Types were the trickiest part to write -- at least for me -- so I'll
 start from them.

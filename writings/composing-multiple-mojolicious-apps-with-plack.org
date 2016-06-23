@@ -97,7 +97,7 @@ application.
 
 Start the server with =plackup composer.pl= to see the results.
 
-[[/images/mojo-apptest1.png]]
+[[../images/mojo-apptest1.png]]
 ** Managing authentication using middlewares
 
 Now we can solve one the problems I mentioned in the introduction: we
@@ -167,12 +167,15 @@ In the applications, to fetch the session data:
 
 Here the result.
 
-[[/images/mojo-apptest1-session.png]]
+[[../images/mojo-apptest1-session.png]]
+
 Here a graphical representation of the architecture we obtained:
 
 #+BEGIN_HTML
   <center>
 #+END_HTML
+
+[[../images/composing-mojo-apps-arch.png]]
 
 #+BEGIN_HTML
   </center>
