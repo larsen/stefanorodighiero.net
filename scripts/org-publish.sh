@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_NAME="test-new-structure"
+PROJECT_NAME="website"
 
 function publish_pages {
     echo "Publishing pages..."
