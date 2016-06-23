@@ -5,8 +5,9 @@ site
 drafts
 stream
 wiki/*.html
+var/pgn4web/*
+images/chessboardjs/*
 
-# generated files
+# WIP
 
-_cache/
-_site/
+posts/
