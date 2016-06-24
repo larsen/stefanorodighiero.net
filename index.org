@@ -18,31 +18,32 @@
 #+SETUPFILE: ~/org/notes-style.org
 
 * Software
-- [[software/wiz.org][Wiz]] is a Scheme implementation written in Haskell. /Work in progress/
-- [[software/hledger-dupes.org][hledger-dupes]] is  a simple utility to find duplicate accounts in
+- [[file:software/wiz.org][Wiz]] is a Scheme implementation written  in Haskell. /Work in progress/
+- [[file:software/hledger-dupes.org][hledger-dupes]] is  a simple utility to find duplicate accounts in
   Hledger journal
-- [[software/moew.org][moew]] a simple webservice written in Emacs Lisp
-- [[software/monad-challenges/index.org][monad challenges]] solutions
+- [[file:software/moew.org][moew]]  a simple webservice written in Emacs Lisp
+- [[file:software/monad-challenges/index.org][monad challenges]] solutions
 
 * Writings
-- I collect shorter and unstructured thoughts in a [[stream/index.org][stream]], updated almost daily.
-- [[writings/composing-multiple-mojolicious-apps-with-plack.org][Composing multiple Mojolicious apps with Plack]]
-- [[writings/making-slides-for-technical-prsentations.org][Writing slides for technical presentations]]
+- I collect shorter and unstructured thoughts in a [[file:stream/index.org][stream]], updated almost daily.
+- [[file:writings/double-feature-keyboard-review.org][Double feature keyboard review]]: some ramblings about the mechanical keyboards I own (Atreus and CODE).
+- [[file:writings/composing-multiple-mojolicious-apps-with-plack.org][Composing multiple Mojolicious apps with Plack]]
+- [[file:writings/making-slides-for-technical-prsentations.org][Writing slides for technical presentations]]
 
 * Other projects
 - [[http://bookflocks.com][Bookflocks]] is a website where I publish (on a weekly basis, or at
   least I try) interviews about books. Backgrounds and occupations of
   those whom I have interviewed vary a lot.
   - A couple of friends asked me how I made Bookflocks. In the spirit
-    of caching what's requested more often, I wrote [[bookflocks.org][some notes]].
+    of caching what's requested more often, I wrote [[file:bookflocks.org][some notes]].
 
 * Books
-- [[pocketperl/index.org][Pocket Perl]], an introduction to Perl programming. Published by
+- [[file:pocketperl/index.org][Pocket Perl]], an introduction to Perl programming. Published by
   Apogeo in 2008.
-- [[books/index.org][Notes about books I read]]. Perpetual work in progress.
+- [[file:books/index.org][Notes about books I read]]. Perpetual work in progress.
 
-* [[links.org][Links]]
+* [[file:links.org][Links]]
 
 * About me
-- [[personal.org][Personal infos]]
-- [[software.org][Software I use]]
+- [[file:personal.org][Personal infos]]
+- [[file:software.org][Software I use]]
