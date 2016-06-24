@@ -13,7 +13,7 @@
 #+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
 #+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #+INFOJS_OPT:
-#+SETUPFILE: ~/org/notes-style.org
+#+SETUPFILE: ~/org/notes-style2.org
 
 * Software I'm looking for
 
@@ -96,7 +96,7 @@ resource.
 ** [[http://hledger.org/][hledger]]
 I started registering *all* my expenses in 2014. hledger is a version
 of ledger written in Haskell. Having access at the underlying library
-is useful, here an article I wrote about that: [[http://stefanorodighiero.net/tags/ledger.html][Finding duplicate accounts in Hledger journals]].
+is useful, here an article I wrote about that: [[file:software/hledger-dupes.org][Finding duplicate accounts in hledger journals]].
 
 ** [[http://jaspervdj.be/hakyll/][hakyll]]
 Hakyll is a static site generator written in Haskell. It powers the
