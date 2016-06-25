@@ -17,6 +17,11 @@
 #+LATEX_HEADER:
 #+SETUPFILE: ~/org/notes-style.org
 
+* Contact
+
+- Email =stefano dot rodighiero at gmail.com=
+- Twitter =@larsen=
+
 * Here some facts about me:
 
 - I was blessed by the opportunity of writing an [introductory book
