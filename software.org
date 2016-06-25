@@ -13,7 +13,109 @@
 #+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
 #+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #+INFOJS_OPT:
-#+SETUPFILE: ~/org/notes-style2.org
+#+SETUPFILE: ~/org/notes-style.org
+
+* Software I use
+This is a collection of pointers to software I use regularly and that
+I find useful.
+
+I marked with a tag software that is only available on the specific
+platform I'm currently using (Mac OS X) thus, by this fact itself,
+programs I ought to replace with something less restrictive.
+
+** Emacs
+I use Emacs for code, notes, agenda, this site, and basically
+for all my text editing tasks. I'm currently using the build available
+from [[http://emacsformacosx.com/][emacsformacosx.com]].
+
+- [[https://github.com/larsen/emacs-configuration][My configuration]]. This repository is normally a couple of iterations
+  behind what I actually use
+- Main packages I use:
+  - [[http://orgmode.org/][org-mode]]
+  - [[https://emacs-helm.github.io/helm/][helm]]
+  - [[http://magit.vc/][magit]]
+  - [[https://github.com/magnars/multiple-cursors.el][multiple cursors]]
+  - [[https://www.gnu.org/software/emacs/manual/html_mono/erc.html][ERC]] (now and then, see below)
+  - [[https://github.com/skeeto/elfeed][elfeed]]
+
+** urxvt
+** Vim
+Before switching to Emacs I was a heavy Vim users. I still appreciate
+it and it's my choice when it comes to edit text on remote systems. My
+configuration: [[https://github.com/larsen/vim-configuration][https://github.com/larsen/vim-configuration]].
+
+If you want to improve your Vim skill, [[https://pragprog.com/book/dnvim/practical-vim][Practical Vim]] is an excellent
+resource.
+
+[[file:./images/dnvim_xlargecover.jpg]]
+
+** [[http://hledger.org/][hledger]]
+I started registering *all* my expenses in 2014. hledger is a version
+of ledger written in Haskell. Having access at the underlying library
+is useful, here an article I wrote about that: [[file:software/hledger-dupes.org][Finding duplicate accounts in hledger journals]].
+
+** git
+I use github for work and [[https://github.com/larsen][for some public projects]].  Everyone of my
+projects is also in a remote repository on one of my servers. I use
+git-web to browse them.
+
+** [[https://www.rstudio.com/][RStudio]]
+I occasionally use R (in the integrated environment RStudio), mostly
+to produce graphics using ggplot2.
+
+** Excel
+I love spreadsheets, in general. Or "spreadsheet computing", as I'm
+compelled to say. I would like to use something not-proprietary but
+Excel is still the best in the category.
+
+** Chrome
+
+** irssi
+Always on, on a remote system to which I connect to via ssh. Sometimes I
+think about using something like [[http://wiki.znc.in/ZNC][znc]] to integrate IRC in Emacs but I
+guess the benefits aren't worth the time.
+
+** VirtualBox
+
+** Spotify
+
+** Calibre
+** VLC
+* Utilities
+
+** Midnight Commander
+
+* Dismissed
+
+** [[http://jaspervdj.be/hakyll/][hakyll]]
+Hakyll is a static site generator written in Haskell. It used to power the
+blog section of my site.
+
+** Nisus Writer                                                        :mac:
+I now use different tools for writing, but Nisus Writer is worth
+mentioning because it's the product I used, back in 2008, for my
+largest writing project so far: [[http://stefanorodighiero.net/pocketperl/][Pocket Perl]].
+
+** Evernote                                                            :mac:
+
+** Quicksilver                                                         :mac:
+
+** Spectacle                                                           :mac:
+
+** [[https://www.iterm2.com/][iTerm2]]                                                               :mac:
+ I am one of those guys that practically live in a shell. After a long
+ time spent in Terminal.app I found this. It has many additional
+ features that make life simpler or even nicer (badges, shell integration, …).
+
+** Apple Keynote                                                        :mac:
+ I occasionally give presentations. I was very fond of [[http://member.wide.ad.jp/wg/mgp/][MagicPoint]] back
+ when I was using Linux, but when I switched to Mac OS X I didn't think
+ the X11 dependancy was convenient. Keynote takes a totally different
+ approach but is good enough.
+** Slate                                                                :mac:
+ I'd love to use a tiling window manager (i3 or xmonad, probably), but
+ I'm on a Mac so the best I could find is this utility.
+** TunnelBlick                                                          :mac:
 
 * Software I'm looking for
 
@@ -57,109 +159,6 @@ should devise a new way to do backups.
 | [[https://www.mendeley.com][Mendeley]] |          |        |          |              |           |         |
 
 ** <2015-10-02 Fri> Something cross platform that allows PDF reading and annotating
-
-* Software I use
-This is a collection of pointers to software I use regularly and that
-I find useful.
-
-I marked with a tag software that is only available on the specific
-platform I'm currently using (Mac OS X) thus, by this fact itself,
-programs I ought to replace with something less restrictive.
-
-** Emacs
-I use Emacs for code, notes, agenda, part of this site, and basically
-for all my text editing tasks. I'm currently using the build available
-from [[http://emacsformacosx.com/][emacsformacosx.com]].
-
-- [[https://github.com/larsen/emacs-configuration][My configuration]]. This repository is normally a couple of iterations
-  behind what I actually use
-- Main packages I use:
-  - [[http://orgmode.org/][org-mode]]
-  - [[https://emacs-helm.github.io/helm/][helm]]
-  - [[http://magit.vc/][magit]]
-  - [[http://emacswiki.org/emacs/Yasnippet][yasnippet]]
-  - [[https://github.com/magnars/multiple-cursors.el][multiple cursors]]
-  - [[https://www.gnu.org/software/emacs/manual/html_mono/erc.html][ERC]] (now and then, see below)
-  - [[https://github.com/skeeto/elfeed][elfeed]]
-
-** urxvt
-** Vim
-Before switching to Emacs I was a heavy Vim users. I still appreciate
-it and it's my choice when it comes to edit text on remote systems. My
-configuration: [[https://github.com/larsen/vim-configuration][https://github.com/larsen/vim-configuration]].
-
-If you want to improve your Vim skill, [[https://pragprog.com/book/dnvim/practical-vim][Practical Vim]] is an excellent
-resource.
-
-[[file:./images/dnvim_xlargecover.jpg]]
-
-** [[http://hledger.org/][hledger]]
-I started registering *all* my expenses in 2014. hledger is a version
-of ledger written in Haskell. Having access at the underlying library
-is useful, here an article I wrote about that: [[file:software/hledger-dupes.org][Finding duplicate accounts in hledger journals]].
-
-** [[http://jaspervdj.be/hakyll/][hakyll]]
-Hakyll is a static site generator written in Haskell. It powers the
-blog section of my site.
-
-** git
-I use github for work and [[https://github.com/larsen][for some public projects]].  Everyone of my
-projects is also in a remote repository on one of my servers. I use
-git-web to browse them.
-
-** [[https://www.rstudio.com/][RStudio]]
-I occasionally use R (in the integrated environment RStudio), mostly
-to produce graphics using ggplot2.
-
-** Excel
-I love spreadsheets, in general. Or "spreadsheet computing", as I'm
-compelled to say. I would like to use something not-proprietary but
-Excel is still the best in the category.
-
-** Chrome
-
-** irssi
-Always on, on a remote system to which I connect to via ssh. Sometimes I
-think about using something like [[http://wiki.znc.in/ZNC][znc]] to integrate IRC in Emacs but I
-guess the benefits aren't worth the time.
-
-** VirtualBox
-
-** Spotify
-
-** Calibre
-** VLC
-* Utilities
-
-** Midnight Commander
-
-* Dismissed
-
-** Nisus Writer                                                        :mac:
-I now use different tools for writing, but Nisus Writer is worth
-mentioning because it's the product I used, back in 2008, for my
-largest writing project so far: [[http://stefanorodighiero.net/pocketperl/][Pocket Perl]].
-
-** Evernote                                                            :mac:
-
-** Quicksilver                                                         :mac:
-
-** Spectacle                                                           :mac:
-
-** [[https://www.iterm2.com/][iTerm2]]                                                               :mac:
- I am one of those guys that practically live in a shell. After a long
- time spent in Terminal.app I found this. It has many additional
- features that make life simpler or even nicer (badges, shell integration, …).
-
-** Apple Keynote                                                        :mac:
- I occasionally give presentations. I was very fond of [[http://member.wide.ad.jp/wg/mgp/][MagicPoint]] back
- when I was using Linux, but when I switched to Mac OS X I didn't think
- the X11 dependancy was convenient. Keynote takes a totally different
- approach but is good enough.
-** Slate                                                                :mac:
- I'd love to use a tiling window manager (i3 or xmonad, probably), but
- I'm on a Mac so the best I could find is this utility.
-** TunnelBlick                                                          :mac:
 
 * Footnotes
 
