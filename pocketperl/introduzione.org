@@ -72,45 +72,41 @@ struttura dei capitoli.
    installare Perl, come installare nuovi moduli, come leggere la
    documentazione.
 
--  [[/pocketperl/scoprire_perl.html][Capitolo 2 - Variabili e strutture
-   dati fondamentali]] Concetti basilari sulle variabili in Perl:
-   scalari, array e hash.
+-  [[/pocketperl/scoprire_perl.html][Capitolo 2 - Variabili e strutture dati fondamentali]] Concetti
+  basilari sulle variabili in Perl: scalari, array e hash.
 
--  [[/pocketperl/variabili_e_strutture_dati_fondamentali.html][Capitolo
-   3 - La sintassi: strutture di controllo]] I fondamenti della sintassi
-   del linguaggio: strutture di controllo e cicli; come scrivere la
-   documentazione. Da qui in poi sarete in grado di scrivere i primi
-   semplici programmi.
+-  [[/pocketperl/variabili_e_strutture_dati_fondamentali.html][Capitolo 3 - La sintassi: strutture di controllo]] I fondamenti della
+  sintassi del linguaggio: strutture di controllo e cicli; come
+  scrivere la documentazione. Da qui in poi sarete in grado di
+  scrivere i primi semplici programmi.
 
--  [[/pocketperl/strutture_complesse_e_subroutine.html][Capitolo 4 -
-   Strutture complesse e subroutine]] Tutto o quasi quello che c'è da
-   sapere per implementare strutture dati complesse. Come organizzare il
-   codice in subroutine. Cenni sulla gestione delle eccezioni.
+-  [[/pocketperl/strutture_complesse_e_subroutine.html][Capitolo 4 - Strutture complesse e subroutine]] Tutto o quasi quello
+  che c'è da sapere per implementare strutture dati complesse. Come
+  organizzare il codice in subroutine. Cenni sulla gestione delle
+  eccezioni.
 
--  [[/pocketperl/package_e_moduli.html][Capitolo 5 - Package e moduli]]
-   Il passo successivo è imparare a gestire la struttura di programmi
-   più lunghi e complessi, organizzandoli in moduli distinti e separati
-   logicamente.
+-  [[/pocketperl/package_e_moduli.html][Capitolo 5 - Package e moduli]] Il passo successivo è imparare a
+  gestire la struttura di programmi più lunghi e complessi,
+  organizzandoli in moduli distinti e separati logicamente.
 
--  [[/pocketperl/programmazione_a_oggetti.html][Capitolo 6 -
-   Programmazione a oggetti]] Concetto cardine della programmazione.
-   Questo capitolo esamina l'implementazione della OOP (Object Oriented
-   Programming) in Perl, mostrandone le tecniche e le pratiche più
-   comuni.
+-  [[/pocketperl/programmazione_a_oggetti.html][Capitolo 6 - Programmazione a oggetti]] Concetto cardine della
+  programmazione.  Questo capitolo esamina l'implementazione della OOP
+  (Object Oriented Programming) in Perl, mostrandone le tecniche e le
+  pratiche più comuni.
 
--  [[/pocketperl/espressioni_regolari.html][Capitolo 7 - Le espressioni
-   regolari]] Introduzione alle espressioni regolari, strumento
-   fondamentale in Perl per la manipolazione dei testi.
+-  [[/pocketperl/espressioni_regolari.html][Capitolo 7 - Le espressioni regolari]] Introduzione alle espressioni
+  regolari, strumento fondamentale in Perl per la manipolazione dei
+  testi.
 
--  [[/pocketperl/perl_e_mondo_esterno.html][Capitolo 8 - Perl e il mondo
-   esterno]] Gestione dell'input/output: manipolazione di file e
-   directory. Cenni sulla programmazione di CGI, sull'accesso a database
-   e sulla realizzazione di interfacce grafiche.
+-  [[/pocketperl/perl_e_mondo_esterno.html][Capitolo 8 - Perl e il mondo esterno]] Gestione dell'input/output:
+  manipolazione di file e directory. Cenni sulla programmazione di
+  CGI, sull'accesso a database e sulla realizzazione di interfacce
+  grafiche.
 
--  [[/pocketperl/appendice.html][Appendice - Approfondimenti]] Una volta
-   terminato il libro, quali strade scegliere per proseguire lo studio
-   del linguaggio? Questo capitolo contiene una bibliografia commentata
-   e una guida ai moduli principali che si possono trovare in Rete.
+-  [[/pocketperl/appendice.html][Appendice - Approfondimenti]] Una volta terminato il libro, quali
+  strade scegliere per proseguire lo studio del linguaggio? Questo
+  capitolo contiene una bibliografia commentata e una guida ai moduli
+  principali che si possono trovare in Rete.
 
 ** Ringraziamenti
 
