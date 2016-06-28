@@ -24,7 +24,7 @@ programs I ought to replace with something less restrictive.
 ** Emacs
 I use Emacs for code, notes, agenda, this site, and basically
 for all my text editing tasks. I'm currently using the build available
-from [[http://emacsformacosx.com/][emacsformacosx.com]].
+from [[http://emacsformacosx.com/][emacsformacosx.com]] on my Mac OS X machine, and Emacs 25 on Linux
 
 - [[https://github.com/larsen/emacs-configuration][My configuration]]. This repository is normally a couple of iterations
   behind what I actually use
@@ -86,7 +86,7 @@ guess the benefits aren't worth the time.
 * Dismissed
 
 ** [[http://jaspervdj.be/hakyll/][hakyll]]
-Hakyll is a static site generator written in Haskell. It used to power the
+Hakyll is a static site generator written in Haskell. Used to power the
 blog section of my site.
 
 ** Nisus Writer                                                        :mac:
