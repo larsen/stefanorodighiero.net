@@ -40,6 +40,24 @@ Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-
     (json-read-object)))
 #+END_SRC
 
+*** Elfeed
+
+Download the image under the cursor 
+#+BEGIN_SRC emacs-lisp
+
+(defun shr-download-image ()
+  "Downloads the image under point"
+  (interactive)
+  (let ((url (get-text-property (point) 'image-url)))
+    (if (not url)
+        (message "No image under point!")
+      (url-copy-file url (expand-file-name (url-file-nondirectory url)
+                                           "~/Pictures/elfeed/")))))
+
+(define-key elfeed-show-mode-map "D" #'shr-download-image)
+
+#+END_SRC
+
 *** Helm
 
 An example of a custom-made Helm menu based on current buffer contents
