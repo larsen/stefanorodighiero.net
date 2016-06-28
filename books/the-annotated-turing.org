@@ -8,8 +8,6 @@
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
 #+KEYWORDS:
-#+HTML_LINK_HOME: http://stefanorodighiero.net/
-#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/books/
 #+HTML_MATHJAX:
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
@@ -23,7 +21,7 @@
 
 file:./../images/books/the-annotated-turing.jpg
 
-* Chapter 2 - The Irrational and the Trascendental
+* Chapter 2 - The Irrational and the Trascendental                 :noexport:
 
 *Question*
 

@@ -8,8 +8,6 @@
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
 #+KEYWORDS:
-#+HTML_LINK_HOME: http://stefanorodighiero.net/
-#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/books/
 #+HTML_MATHJAX:
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
@@ -52,7 +50,7 @@ file:./../images/books/the-computer-boys-take-over.jpg
 
 **** Maurice Wilkes: "And it was with somewhat of a shock that I realized that for the rest of my life I was going to spend a good deal of my time finding mistakes that I had made in my programs"
 
-* 2. The Black Art of Programming
+* 2. The Black Art of Programming                                  :noexport:
 
 #+tblname: chap2-computers-in-use-per-year
 | Year | Computers in use |
@@ -63,12 +61,12 @@ file:./../images/books/the-computer-boys-take-over.jpg
 | 1965 |            25000 |
 | 1970 |            75000 |
 
-#+BEGIN_SRC gnuplot :exports results :var data=chap2-computers-in-use-per-year :file chap2-1.png :results graphics
+#+BEGIN_SRC gnuplot :exports results :var data=chap2-computers-in-use-per-year :file ../images/chap2-1.png :results graphics
 reset
 set title "Computers in use per year"
 plot data u 1:2 with lines
 #+END_SRC
 
 #+RESULTS:
-[[file:chap2-1.png]]
+[[file:../images/chap2-1.png]]
 
