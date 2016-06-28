@@ -10,8 +10,6 @@
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
-#+HTML_LINK_HOME: http://stefanorodighiero.net/
-#+HTML_LINK_UP: http://stefanorodighiero.net/wiki/
 #+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #+INFOJS_OPT:
 #+LATEX_HEADER:
@@ -81,6 +79,7 @@
 **** [[http://kunststube.net/encoding/][What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text]]
 **** [[http://blog.fogus.me/2011/09/08/10-technical-papers-every-programmer-should-read-at-least-twice/][10 Technical Papers Every Programmer Should Read (At Least Twice)]]
 **** [[http://norvig.com/21-days.html][Teach Yourself Programming in Ten Years]]
+**** [[http://ithare.com/a-beginners-guide-to-programming-languages/][A Beginner's Guide to Programming Languages]]
 
 * Math
 
