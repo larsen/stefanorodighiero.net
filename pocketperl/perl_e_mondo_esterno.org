@@ -6,8 +6,6 @@
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
 #+KEYWORDS:
-#+HTML_LINK_HOME: /
-#+HTML_LINK_UP: /
 #+HTML_MATHJAX:
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
@@ -19,16 +17,9 @@
 
 ** Approfondimenti
 
--  Su Template Toolkit:
-   [[http://www.perl.it/documenti/articoli/2007/02/perl-template-t.html][Perl
-   Template Toolkit]]
--  Su POE:
-   [[http://stacktrace.it/2009/03/-introduzione-al-perl-object-environment-poe1/][Introduzione
-   al Perl Object Environment (POE)/1]] e
-   [[http://stacktrace.it/2009/04/introduzione-al-perl-object-environment-poe2/][Introduzione
-   al Perl Object Environment (POE)/2]]
--  Su wxPerl:
-   [[http://learnperl.scratchcomputing.com/tutorials/wxperl/][Your First
-   GUI Desktop Application]] di Eric Wilhelm.
+-  Su Template Toolkit: [[http://www.perl.it/documenti/articoli/2007/02/perl-template-t.html][Perl Template Toolkit]]
+-  Su POE: [[http://stacktrace.it/2009/03/-introduzione-al-perl-object-environment-poe1/][Introduzione al Perl Object Environment (POE)/1]] e
+  [[http://stacktrace.it/2009/04/introduzione-al-perl-object-environment-poe2/][Introduzione al Perl Object Environment (POE)/2]]
+-  Su wxPerl: [[http://learnperl.scratchcomputing.com/tutorials/wxperl/][Your First GUI Desktop Application]] di Eric Wilhelm.
 
 ** Errata corrige
