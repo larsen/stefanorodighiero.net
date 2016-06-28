@@ -14,8 +14,6 @@
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
-#+HTML_LINK_HOME: http://stefanorodighiero.net/
-#+HTML_LINK_UP: /wiki/monad-challenges/ 
 #+HTML_MATHJAX: align:"left" mathml:t path:"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #+INFOJS_OPT:
 #+LATEX_HEADER:
