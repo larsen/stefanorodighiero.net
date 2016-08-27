@@ -73,6 +73,9 @@ Always on, on a remote system to which I connect to via ssh. Sometimes I
 think about using something like [[http://wiki.znc.in/ZNC][znc]] to integrate IRC in Emacs but I
 guess the benefits aren't worth the time.
 
+*** Update <2016-08-27 sab>
+    I setup znc and I tentatively switched to ERC. Let's see what happens
+
 ** VirtualBox
 
 ** Spotify

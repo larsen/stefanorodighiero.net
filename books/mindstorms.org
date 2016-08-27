@@ -19,3 +19,13 @@
 
 file:./../images/books/mindstorms.jpg
 
+* Chapter 2 - Mathophobia: The Fear of Learning
+
+- *Continuity principle* 
+  Must be continuous with well-established personal knowledge
+
+- *Power principle*
+  Must empower the learner to perform personally meaningful projects
+
+- *Principle of cultural resonance*
+  The topic must make sense in terms of a larger cultural context

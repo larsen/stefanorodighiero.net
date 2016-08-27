@@ -35,6 +35,7 @@
 **** [[http://www.cliki.net/index][Common Lisp Wiki]]
 **** [[http://www.lispworks.com/documentation/HyperSpec/Front/Contents.htm][Common Lisp HyperSpec]]
 **** [[http://cl-cookbook.sourceforge.net/][Common Lisp Cookbook]]
+**** [[https://google.github.io/styleguide/lispguide.xml][Google Common Lisp Style Guide]]
 **** [[http://lispdoc.com/][Lisp Documentation]] 
      A searchable engine, with content from Practical Common Lisp
      (PCL), Successful Lisp, On Lisp, CLtL2, the HyperSpec, and the
@@ -80,6 +81,7 @@
 **** [[http://blog.fogus.me/2011/09/08/10-technical-papers-every-programmer-should-read-at-least-twice/][10 Technical Papers Every Programmer Should Read (At Least Twice)]]
 **** [[http://norvig.com/21-days.html][Teach Yourself Programming in Ten Years]]
 **** [[http://ithare.com/a-beginners-guide-to-programming-languages/][A Beginner's Guide to Programming Languages]]
+**** [[https://www.w3.org/TR/html5/Overview.html#contents][W3C HTML5 Specs]]
 
 * Math
 
@@ -119,6 +121,7 @@
 
 *** [[http://www-users.cs.york.ac.uk/~susan/books/pages/index.htm][Susan Stepney's books reviews]]
 *** [[https://www.librarything.com/][Library Thing]]
+*** [[https://www.librarycat.org/lib/Stefano.Rodighiero][My personal collection, on TinyCat]]
 *** Science Fiction
 **** [[http://www.isfdb.org/][Internet Speculative Fiction Database]]
 **** [[https://www.worldswithoutend.com/][Worlds Without End]]
@@ -165,6 +168,8 @@
 ***** [[http://nibrahim.net.in/2011/07/17/my_org_mode_setup.html][Noufal Ibrahim's org setup]]
 ***** [[http://www.star.bris.ac.uk/bjm/org-basics.html][org-mode basics]]
 ***** [[https://github.com/dfeich/org-babel-examples][org-babel example collection]]
+** LaTeX
+**** [[https://www.hartwork.org/beamer-theme-matrix/][Beamer Theme Matrix]]
 ** Keyboards
 
 **** [[http://falbatech.pl/prestashop/index.php?id_category%3D12&controller%3Dcategory][Falba Tech]]

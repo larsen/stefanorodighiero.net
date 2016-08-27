@@ -6,8 +6,8 @@
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
 #+KEYWORDS:
-#+HTML_LINK_UP: /
-#+HTML_LINK_HOME: /
+#+HTML_LINK_UP:
+#+HTML_LINK_HOME:
 #+HTML_MATHJAX:
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
@@ -18,17 +18,32 @@
 #+SETUPFILE: ~/org/notes-style.org
 
 * Software
-- [[file:software/wiz.org][Wiz]] is a Scheme implementation written  in Haskell. /Work in progress/
-- [[file:software/hledger-dupes.org][hledger-dupes]] is  a simple utility to find duplicate accounts in
+** Projects
+- [[file:software/wireworld.org::*Wireworld][Wireworld]] simulator and editor. /Work in progress/ 
+  - If you don't know what Wireworld is, you can find a nice
+    introduction here: http://www.quinapalus.com/wires0.html
+- [[file:software/wiz.org][Wiz]] is a Scheme implementation written in Haskell. /Work in
+  progress/
+- [[file:software/hledger-dupes.org][hledger-dupes]] is a simple utility to find duplicate accounts in
   Hledger journal
-- [[file:software/moew.org][moew]]  a simple webservice written in Emacs Lisp
-- [[file:software/monad-challenges/index.org][monad challenges]] solutions
+- [[file:software/moew.org][moew]] is a simple webservice written in Emacs Lisp
+- [[file:software/logo.org][Logo-ish drawing environment]]
+
+** Misc
+- [[file:software/emacs.org::*Emacs][Some notes and code snippets for Emacs]]
+- [[file:software/muting-unmuting-skype.org][Muting and unmuting Skype for lazy people]]
+- [[file:software/monad-challenges/index.org][Monad challenges]] solutions /Work in progress/
+- [[file:software/geometry/index.org][Geometry trove]]
 
 * Writings
-- I collect shorter and unstructured thoughts in a [[file:stream/index.org][stream]], updated almost daily.
-- [[file:writings/double-feature-keyboard-review.org][Double feature keyboard review]]: some ramblings about the mechanical keyboards I own (Atreus and CODE).
+- I collect shorter and unstructured thoughts in a [[file:stream/index.org][stream]], updated
+  almost daily.
+- [[file:writings/double-feature-keyboard-review.org][Double feature keyboard review]]: some ramblings about the mechanical
+  keyboards I own (Atreus and CODE).
 - [[file:writings/composing-multiple-mojolicious-apps-with-plack.org][Composing multiple Mojolicious apps with Plack]]
 - [[file:writings/making-slides-for-technical-prsentations.org][Writing slides for technical presentations]]
+- [[file:perl101/index.org][Perl 101]] Slides and course material for a 8-hour long introduction
+  to Perl I delivered several time over the years.
 
 * Other projects
 - [[http://bookflocks.com][Bookflocks]] is a website where I publish (on a weekly basis, or at

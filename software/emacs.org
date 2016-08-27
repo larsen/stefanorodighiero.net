@@ -21,13 +21,14 @@
 
 ** Code snippets
 *** General
+**** Disable =Meta= behaviour in Emacs for right Option key
 
-Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-or-command]]
+ Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-or-command]]
 
-#+BEGIN_SRC emacs-lisp
-(when (eq system-type 'darwin)
-  (setq mac-right-option-modifier 'none))
-#+END_SRC
+ #+BEGIN_SRC emacs-lisp
+ (when (eq system-type 'darwin)
+   (setq mac-right-option-modifier 'none))
+ #+END_SRC
 
 **** Generic function to get JSON data from a URI
 
@@ -38,6 +39,22 @@ Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-
       (url-retrieve-synchronously url)
     (goto-char (+ 1 url-http-end-of-headers))
     (json-read-object)))
+#+END_SRC
+
+**** Org 2 Webjump list
+     Convert a list of bookmarks (expressend in a org document) in a
+data structure suitable for webjump.
+
+#+BEGIN_SRC emacs-lisp
+  (require 'cl)
+  (defun get-webjump-sites ()
+    "converts a org document in a data structure suitable for webjump"
+    (let ((regex "\\[\\[\\(.*\\)\\]\\[\\(.*\\)\\]\\]"))
+      (with-current-buffer (get-file-buffer "~/Dropbox/stefanorodighiero.net/links.org")
+        (loop for i in (org-map-entries 'org-entry-properties nil 'file)
+              for item-string = (cdr (assoc "ITEM" i))
+              if (string-match regex item-string)
+              collect `(,(match-string 2 item-string) . ,(match-string 1 item-string))))))
 #+END_SRC
 
 *** Elfeed
