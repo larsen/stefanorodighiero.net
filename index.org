@@ -21,7 +21,7 @@
 ** Projects
 - [[file:software/wireworld.org::*Wireworld][Wireworld]] simulator and editor. /Work in progress/ 
   - If you don't know what Wireworld is, you can find a nice
-    introduction here: http://www.quinapalus.com/wires0.html
+    introduction at [[http://www.quinapalus.com/wires0.html][Quinapalus]].
 - [[file:software/wiz.org][Wiz]] is a Scheme implementation written in Haskell. /Work in
   progress/
 - [[file:software/hledger-dupes.org][hledger-dupes]] is a simple utility to find duplicate accounts in

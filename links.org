@@ -125,6 +125,7 @@
 *** Science Fiction
 **** [[http://www.isfdb.org/][Internet Speculative Fiction Database]]
 **** [[https://www.worldswithoutend.com/][Worlds Without End]]
+*** [[https://www.flickr.com/photos/internetarchivebookimages/][Internet Archive Book Images]]
 *** Ebooks
 
 **** [[http://patshaughnessy.net/2012/11/27/my-ebook-build-process-and-some-pdf-epub-and-mobi-tips][My eBook build process and some PDF, EPUB and MOBI tips]]

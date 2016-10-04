@@ -23,7 +23,7 @@
 *** General
 **** Disable =Meta= behaviour in Emacs for right Option key
 
- Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-or-command]]
+ Rif.: [[http://apple.stackexchange.com/questions/12087/emacs-on-mac-os-x-to-alt-or-command][apple.stackexchange.com]]
 
  #+BEGIN_SRC emacs-lisp
  (when (eq system-type 'darwin)
@@ -117,7 +117,7 @@ Disables all enabled themes before activating the new one:
 #+END_SRC
 *** Clone indirect buffer in another frame
 
-Rif.: http://superuser.com/questions/338140/edit-one-file-in-two-different-buffers-in-emacs
+Rif.: [[http://superuser.com/questions/338140/edit-one-file-in-two-different-buffers-in-emacs][Superuser]]
 
 #+BEGIN_SRC emacs-lisp
 (global-set-key [?\C-x ?5 ?c]
@@ -135,7 +135,7 @@ Rif.: http://superuser.com/questions/338140/edit-one-file-in-two-different-buffe
 #+END_SRC
 *** Dired
 
-Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
+Rif.: [[http://www.emacswiki.org/emacs/DoWhatIMean#DWIM][Emacswiki]]
 
 #+BEGIN_SRC emacs-lisp
 (setq dired-dwim-target t) 
@@ -176,17 +176,20 @@ Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
 
 *** Markdown mode
 | *Key sequence* | *Command*         | *Elisp function*               |
+|----------------+-------------------+--------------------------------|
 | =C-c C-s b=    | Insert blockquote | =(markdown-insert-blockquote)= |
 | =C-c C-c p=    | Preview           |                                |
 
 *** eww
 | *Key sequence* | *Command*             | *Elisp function*      |
+|----------------+-----------------------+-----------------------|
 | =H=            | Show browsing history |                       |
 | =l=            |                       | =(eww-back-url)=      |
 | =w=            | Copy current page URL | =(eww-copy-page-url)= |
 
 *** Helm
 | *Key sequence*  | *Command* | *Elisp function*    |
+|-----------------+-----------+---------------------|
 | =C-x c C-x C-f= |           | =(helm-find-files)= |
 
 ** SLIME
@@ -195,6 +198,7 @@ Rif.: http://www.emacswiki.org/emacs/DoWhatIMean#DWIM
 
 *** Key bindings
 | *Key sequence* | *Command*                          | *Elisp function*   |
+|----------------+------------------------------------+--------------------|
 | =C-M-i=        | Complete symbol                    |                    |
 | =C-M-x=        | Evaluate the current toplevel form | ~slime-eval-defun~ |
 | =<Leader> !p=  | Change package                     |                    |

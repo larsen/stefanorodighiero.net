@@ -1,6 +1,6 @@
 #+TITLE: Wiz - A Scheme interpreter implemented in Haskell
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
-#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html-scripts:t html-style:t
 #+OPTIONS: html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
